@@ -1,0 +1,277 @@
+SOURCE: Delta Sees $2B Fuel Hit With CEO Cautious on Outlook
+Delta Air Lines Inc. expects to incur more than $2 billion in higher fuel costs through June because of the Iran war, prompting the carrier to tread carefully and stick to its previous full-year profit forecast.
+
+Fuel prices have soared as the conflict disrupts global energy markets, raising costs for airlines at a time when demand has otherwise held up. The increase is forcing carriers to weigh how much of the higher expense they can pass on through fares without dampening bookings.
+
+“High fuel prices have been the most powerful catalyst for change, separating the winners and forcing weaker players to rationalize, consolidate or be eliminated,” Chief Executive Officer Ed Bastian told analysts on an earnings conference call.
+
+Bastian earlier told reporters Delta is “looking to do more” fare increases beyond what has already been levied.
+
+Airline shares globally surged on April 8, after US President Donald Trump agreed to a two-week ceasefire in exchange for Tehran reopening the Strait of Hormuz, a vital route for exports of oil and other commodities.
+
+Delta shares rose 7.2% to $70.32 as of 10:49 a.m. New York time on April 8. Rival United Airlines Holdings Inc. rose 11%, while American Airlines Group Inc. rose about 8%.
+
+As the first major U.S. airline to report quarterly results, Delta is seen as a bellwether for the world’s biggest aviation market. Its lack of an updated full-year outlook highlights how volatile conditions have become for the industry.
+
+Despite the uncertai
+
+SOURCE: Hyundai Reroutes Ships With Hormuz Blockage Disrupting Supplies
+Hyundai Motor Co. is rerouting ships around Africa to avoid the Strait of Hormuz, slowing the automaker’s global supply lines as the war in Iran adds pressure to the already strained movement of goods.
+
+“We have deviated our ships to the Cape of Good Hope,” Chief Executive Officer José Muñoz said on April 8 in an interview, referring to the southern tip of South Africa. “This is a lot of additional lead time.”
+
+The shift is part of a broader plan to rework its operations to insulate the company from supply chain shocks, tariffs and geopolitical tension, he said. Longer term, Hyundai is seeking to source more components locally in Europe rather than ship them from South Korea, a path that relies on passing through the Strait of Hormuz.
+
+Hyundai has been keeping more inventory on hand to buffer against supply shocks since the global pandemic upended supply chains, Muñoz said. Meetings to make supply-chain decisions — once an annual occurrence — are now happening on roughly a weekly basis, he said.
+
+“We try to put together supply and demand, take decisions and maximize as much as we possibly can the production capacity that we have, so that we don’t lose production,” Muñoz said. “But it’s tough. It’s never been as tough as it is now.”
+
+Investors globally anticipate extended disruptions to traffic through the strait, even after news of a ceasefire agreement between the U.S. and Iran that sent oil prices tumbling more than 17% on April 8.
+
+Hyundai has largely been able to maintain
+
+SOURCE: Hormuz Crisis Pushes Struggling Trucking Sector to the Brink
+As the conflict in Iran has sent average diesel prices skyrocketing toward record levels, the crisis now threatens a U.S. trucking industry already grappling with new language requirements for drivers, a years-long freight recession, and razor-thin margins that leave little room to absorb yet another shock.
+
+Over the last month, California, Arizona, Maryland, Texas, Virginia, North Carolina, Hawaii and Nevada have all reported new all-time records for average diesel prices. While trucking operators have been able to shield themselves somewhat by having shippers pay fuel surcharges, those surcharges are based on weekly government price averages, meaning that carriers can be stuck absorbing days' worth of higher pump prices before any adjustments kicks in.
+
+Although larger operators are typically well-equipped to absorb those costs, any sizable, sudden price increases can have an outsized impact on small or medium-sized fleets, which don't have the same resources to bridge the gap between what they're paying at the pump and what their surcharges are recovering.
+
+"Fuel is one of the biggest day-to-day costs for carriers, so when prices jump this fast, margins get squeezed quickly," says Jennifer Lockett, freight factoring operations manager for bank-backed invoice financing company altLINE.
+
+Many carriers have already had to adjust their operations by tightening routes, cutting unnecessary miles, and holding off on hiring new drivers or buying new equipment, Lockett notes. Drive
+
+PAPER: Impact of the Temperature and Humidity Variations on Link Quality of xm1000 Mote Sensors
+ABSTRACT: The core motivations of deploying a sensor network for a specific application come from the autonomy of sensors, their reduced size, and their capabilities for computing and communicating in a short range. However, many challenges for sensor networks still exist: minimizing energy consumption, and ensuring the performance of communication that may be affected by many parameters. The work described in this paper covers mainly the analysis of the impact of the temperature and humidity variations on link quality of XM1000 operating under TinyOS. Two-way ANOVA test has been applied and the obtained results show that both the temperature and humidity variations impact RSSI.
+
+PAPER: Security for the Industrial IoT: The Case for Information-Centric Networking
+ABSTRACT: Industrial production plants traditionally include sensors for monitoring or documenting processes, and actuators for enabling corrective actions in cases of misconfigurations, failures, or dangerous events. With the advent of the IoT, embedded controllers link these `things' to local networks that often are of low power wireless kind, and are interconnected via gateways to some cloud from the global Internet. Inter-networked sensors and actuators in the industrial IoT form a critical subsystem while frequently operating under harsh conditions. It is currently under debate how to approach inter-networking of critical industrial components in a safe and secure manner.
+  In this paper, we analyze the potentials of ICN for providing a secure and robust networking solution for constrained controllers in industrial safety systems. We showcase hazardous gas sensing in widespread industrial environments, such as refineries, and compare with IP-based approaches such as CoAP and MQTT. Our findings indicate that the content-centric security model, as well as enhanced DoS resistance are important arguments for deploying Information Centric Networking in a safety-critical industrial IoT. Evaluation of the crypto efforts on the RIOT operating system for content security reveal its feasibility for common deployment scenarios.
+
+
+############################################################
+# SEGMENT: IoT_Supply_Chain | DATE: 2026-04-09 13:31
+############################################################
+SOURCE: Delta Sees $2B Fuel Hit With CEO Cautious on Outlook
+Delta Air Lines Inc. expects to incur more than $2 billion in higher fuel costs through June because of the Iran war, prompting the carrier to tread carefully and stick to its previous full-year profit forecast.
+
+Fuel prices have soared as the conflict disrupts global energy markets, raising costs for airlines at a time when demand has otherwise held up. The increase is forcing carriers to weigh how much of the higher expense they can pass on through fares without dampening bookings.
+
+“High fuel prices have been the most powerful catalyst for change, separating the winners and forcing weaker players to rationalize, consolidate or be eliminated,” Chief Executive Officer Ed Bastian told analysts on an earnings conference call.
+
+Bastian earlier told reporters Delta is “looking to do more” fare increases beyond what has already been levied.
+
+Airline shares globally surged on April 8, after US President Donald Trump agreed to a two-week ceasefire in exchange for Tehran reopening the Strait of Hormuz, a vital route for exports of oil and other commodities.
+
+Delta shares rose 7.2% to $70.32 as of 10:49 a.m. New York time on April 8. Rival United Airlines Holdings Inc. rose 11%, while American Airlines Group Inc. rose about 8%.
+
+As the first major U.S. airline to report quarterly results, Delta is seen as a bellwether for the world’s biggest aviation market. Its lack of an updated full-year outlook highlights how volatile conditions have become for the industry.
+
+Despite the uncertai
+
+SOURCE: The top 10 smart manufacturing technology vendors
+In short
+
+The global smart manufacturing market reached $175 billion in 2025, according to IoT Analytics’ Industry 4.0 & Smart Manufacturing Market Report 2026–2030 (published March 2026).
+
+IoT Analytics projects the market to grow at a CAGR of 9.3% until 2030, reaching $274 billion.
+
+In 2026, the top 10 smart manufacturing technology vendors are prioritizing software-defined, AI-infused architectures, but their approaches differ.
+
+In this article
+
+Smart manufacturing market snapshot and outlook
+
+Comparing the top 10 smart manufacturing vendors
+
+Deep dive: The top 10 vendors
+
+Further analysis
+
+Global smart manufacturing market by segment and technology (Insights+)
+
+Growth vs maturity of smart manufacturing technologies (Insights+)
+
+Top 20 smart manufacturing vendors (Insights+)
+
+Key segments for the top 20 smart manufacturing vendors (Insights+)
+
+3 key action items from this report for strategists, product managers, marketers, and salespeople (Insights+)
+
+Smart manufacturing market snapshot and outlook
+
+Industrial AI is reviving the smart manufacturing technology market. Early evidence suggests that industrial AI is beginning to re-energize the smart manufacturing market, with data management/platform, AI platform, and AI-related investments such as mobile robotics increasingly driving market growth, according to IoT Analytics’ 406-page Industry 4.0 & Smart Manufacturing Market Report 2026–2030 (published March 2026). The global smart manufacturing market (hardware, software,
+
+SOURCE: 7 lessons manufacturers can learn from automakers in the era of software-defined everything
+In short
+
+A software-defined-everything revolution is currently changing hardware technology architectures.
+
+Automotive OEMs are leading this revolution with 80%+ of carmakers actively building software-defined vehicle architectures.
+
+Manufacturers and industrial automation companies are further behind in adopting software-defined architectures and can take 7 lessons from the automotive SDV playbook.
+
+In this article
+
+Hardware is getting software-defined, and automakers are leading the charge
+
+7 lessons manufacturers can learn from SDVs
+
+Lesson 1: Consolidate computing across the stack
+
+Lesson 2: The edge platform layer becomes very important
+
+Lesson 3: Decouple the software lifecycle from the hardware lifecycle
+
+Lesson 4: DevOps and toolchains bring “software-defined” to life
+
+Lesson 5: OTA is a game-changer
+
+Lesson 6: End-to-end security and compliance become its own discipline
+
+Lesson 7: AI impact is only seen once the software-defined foundation exists
+
+Analyst takeaway: What automation decision-makers should borrow, adapt, and avoid
+
+3 software trends observed at SPS 2025 (Insights+ exclusive)
+
+Comparison of tech-native and traditional OEMS regarding SDV adoption (Insights+ exclusive)
+
+Hardware is getting software-defined, and automakers are leading the charge
+
+Entering the software-defined everything (SDE) era. Hardware is undergoing an architectural revolution toward software-defined systems. As products become more connected, feature-rich, and update-driven, building,
+
+SOURCE: 60+ emerging industrial digital technologies you should have on your radar (2026 update)
+In short
+
+IoT Analytics identified 64 industrial digital technologies that those working in industrial operations should have on their radar: 21 in AI & ML, 18 in automation & robotics, 13 in IoT hardware & connectivity, and 12 in cloud, software, & security.
+
+Of the 64 technologies on the radar, 18 are considered to be fairly mature. Many technologies are further out and still need time to reach mass-market maturity.
+
+Why it matters
+
+The radar helps anyone working in industrial operations understand which technologies they should be watching, evaluating, and perhaps deploying.
+
+In this article
+
+How big is the industrial digital technology market?
+
+How do these industrial digital technologies rank by maturity?
+
+5 takeaways from the analysis
+
+Emerging technologies
+
+AI & ML
+
+Automation & robotics
+
+IoT hardware & connectivity
+
+Cloud, software & security
+
+The complete picture: Maturity, impact, and interest (Insights+ exclusive)
+
+200 industrial digital technologies startups (Insights+ exclusive)
+
+Selected highlights
+
+Over 60 technologies ranked by maturity. The IoT Analytics team handpicked 64 of the most promising technologies for its Industrial Digital Technology Outlook 2026 report and ranked them according to their perceived maturity, their impact, and correlated the data with corporate and public interest. The resulting emerging-technologies radar can help anyone working in industrial environments and projects understand which technologies to watch, evaluate, and perhaps dep
+
+SOURCE: How Texas Children’s Saved $14M with Zebra RFID Solutions: RFID Journal Case Study
+As hospitals in the U.S. become larger and have to serve more patients, ensuring that inventory counts for medicines to are up to date and accurate has become a priority.
+
+This was an issue that Texas Children’s Hospital was having as its pharmacy was struggling with a lack of real-time inventory visibility, leading to several critical issues. An annual inventory review revealed $40 million in medications that could not be properly tracked, representing 8-10% of their drug budget.
+
+As a result, pharmacy technicians spent hours manually counting items and reconciling reports, which often had discrepancies. And ordering was based on “gut feeling,” resulting in overstocking, expired medications, and supply gaps.
+
+Texas Children’s Hospital
+
+Texas Children’s Hospital is a not-for-profit healthcare organization with a mission to create a healthier future for children and women globally through leadership in patient care, education, and research.
+
+As one of the nation’s largest and most comprehensive pediatric and women’s health care organizations that consistently ranked among the top children’s hospitals in the United States by U.S. News & World Report, it manages nearly 4.9 million patient encounters annually and is the primary pediatric training site for Baylor College of Medicine.
+
+RFID Hardware
+
+To solve their pharmaceutical inventory issue, they worked in collaboration with Zebra Technologies and Tecsys to co-engineer an RFID-powered solution. Zebra is a global leader in digi
+
+SOURCE: Protecting Patients from Counterfeit Pharmaceuticals with RAIN RFID
+Glucagon-Like Peptide-1 (GLP-1) receptor agonists are a class of medicines that are utilized to support the treatment of diabetes and, increasingly, weight loss and other similar medical needs.
+
+Licensed versions of these medicines are sold under brand names including Wegovy, Ozempic and Mounjaro, each of which has undergone rigid scrutiny by official regulators to ensure that they are safe for use.
+
+However, as these therapies have become increasingly popular, counterfeit versions have begun to infiltrate the supply chain – many of which are unregulated, untested and unsafe. In 2025, the United Kingdom’s dedicated regulator, the Medicines and Healthcare products Regulatory Agency (MRHA), carried out the world’s largest seizure of unlicensed weight-loss medicines, uncovering a factory making injection pens that were labelled as containing the key ingredient in Mounjaro. The World Health Organization (WHO) estimates that the counterfeit drug market is worth up to $400 billion a year.
+
+Battling Counterfeit Drugs
+
+The risk of counterfeit drugs entering the marketplace is off the charts. This poses a clear and present danger to the health of patients – with potentially life-threatening implications. There is also the threat of reputational damage for the brands producing authentic medication if someone has an adverse reaction to a counterfeit version, as well as for pharmacists that may unknowingly distribute counterfeit medicines if they accidentally enter the supply chain.
+
+A t
+
+SOURCE: Checkpoint RFID Innovation Secures Scotch Whisky Traceability
+A recent UK investigation uncovered fraud within the Scotch whisky cask investment industry, exposing how investors were misled by false claims and, in some cases, entirely fictitious casks.
+
+The BBC’s Disclosure: Hunting the Whisky Bandits resulted in industry-wide calls for stronger regulation, digital transparency and verified ownership records. More than 33 million whisky casks are currently in storage across Scotland, many with limited traceability and minimal digital oversight.
+
+To meet the moment, Checkpoint Systems is offering a solution to ensure transparency and traceability. SmartCask RFID tags integrate long-life data chips directly onto individual casks, creating a unique digital identity designed to endure for decades. With standard storage conditions, the technology is engineered to last up to 30 years, according to company officials.
+
+Checkpoint Offering
+
+When CCL Industries— Checkpoint’s parent company and one of the world’s largest label and packaging solutions provider— began exploring solutions for the transparency challenges in the whisky cask sector, it was determined a solution featuring CCL’s secure labeling and authentication could me married with Checkpoint’s RFID innovation and digital lifecycle tracking.
+
+Together, the two compnaies identified the core issues facing the industry: unreliable asset identities, no unified system to verify ownership, limited visibility across the supply chain, and an urgent need for tamper resistant digital records. Th
+
+SOURCE: Mediterranean regional feeder networks feeling the strain again
+Spot rates shrug off Iran shock as carriers chase volume over profits
+
+Container spot freight rates on the main east-west trades largely flatlined this week as excess ...
+
+Surging fuel costs lift spots... for now
+
+The fallout from the US-Israel-Iran conflict is now beginning to bleed into the main container ...
+
+Cork bags second transatlantic call
+
+Next month Ireland will get its second direct call to the US after CMA CGM ...
+
+Flat spot rates frustrate carriers’ bid to push March increases
+
+Container spot freight rates on the main east-west trades largely flatlined this week as weak ...
+
+'Massive volatility' driving container spot rate disparity
+
+It will be of no surprise to anyone in the container shipping industry that container ...
+
+Port congestion is reflective of the whole chain, says Rotterdam chief
+
+What the industry calls “port congestion” is often just the visible symptom of deeper supply ...
+
+Global congestion threat as ports quickly flip from 'working' to 'overloaded'
+
+While rapidly escalating fuel costs may be at the forefront of shippers’ minds as the ...
+
+Analysis: The Gemini effect on box shipping – one year in
+
+It is just over a year since Maersk and Hapag-Loyd launched the Gemini Cooperation, with ...
+
+Ocean spots ride a wave of conflict, congestion and aggressive pricing
+
+Container freight spot rates on the transpacific and Asia-Europe diverged this week as the full ...
+
+SOURCE: Carriers wait as ceasefire becomes ‘test window’ for Hormuz reopening
+News in Brief Podcast | Week 11 2026 | Supply chains are more uncertain than ever
+
+Escalating tensions in the Middle East are once again creating uncertainty for global supply chains. ...
+
+SOURCE: How to bypass the Strait of Hormuz with a trucking landbridge
+Return to normal for Hormuz could be months away, says DHL
+
+A return to normal for ocean shipping through the Strait of Hormuz could be months ...
+
+PAPER: Impact of the Temperature and Humidity Variations on Link Quality of xm1000 Mote Sensors
+ABSTRACT: The core motivations of deploying a sensor network for a specific application come from the autonomy of sensors, their reduced size, and their capabilities for computing and communicating in a short range. However, many challenges for sensor networks still exist: minimizing energy consumption, and ensuring the performance of communication that may be affected by many parameters. The work described in this paper covers mainly the analysis of the impact of the temperature and humidity variations on link quality of XM1000 operating under TinyOS. Two-way ANOVA test has been applied and the obtained results show that both the temperature and humidity variations impact RSSI.
+
+PAPER: Security for the Industrial IoT: The Case for Information-Centric Networking
+ABSTRACT: Industrial production plants traditionally include sensors for monitoring or documenting processes, and actuators for enabling corrective actions in cases of misconfigurations, failures, or dangerous events. With the advent of the IoT, embedded controllers link these `things' to local networks that often are of low power wireless kind, and are interconnected via gateways to some cloud from the global Internet. Inter-networked sensors and actuators in the industrial IoT form a critical subsystem while frequently operating under harsh conditions. It is currently under debate how to approach inter-networking of critical industrial components in a safe and secure manner.
+  In this paper, we analyze the potentials of ICN for providing a secure and robust networking solution for constrained controllers in industrial safety systems. We showcase hazardous gas sensing in widespread industrial environments, such as refineries, and compare with IP-based approaches such as CoAP and MQTT. Our findings indicate that the content-centric security model, as well as enhanced DoS resistance are important arguments for deploying Information Centric Networking in a safety-critical industrial IoT. Evaluation of the crypto efforts on the RIOT operating system for content security reveal its feasibility for common deployment scenarios.
+
