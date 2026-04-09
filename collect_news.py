@@ -131,7 +131,7 @@ SEGMENTS = {
             "cold-chain compliance and data logging platforms, warehouse and transportation monitoring, "
             "real-time alerting and SLA breach detection, and platform integration (ERP, WMS, TMS). "
             "Identify new sensor technologies, connectivity standards (BLE, NB-IoT, 5G, other), "
-            "emerging SaaS platforms and startups, regulatory drivers (GDP, HACCP, pharma cold-chain), "
+            "emerging SaaS platforms and startups, regulatory drivers (GDP, CCS, HACCP, pharma cold-chain), "
             "and opportunities to improve visibility and reduce spoilage or loss across the cold chain."
         ),
         "recipient": "olivier@sapiochain.io",
