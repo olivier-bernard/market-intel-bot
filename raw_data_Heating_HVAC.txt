@@ -198,3 +198,150 @@ ABSTRACT: The aim of this paper is to briefly recall heat transfer modes and exp
 PAPER: A Metric of Software Size as a Tool for IT Governance
 ABSTRACT: This paper proposes a new metric for software functional size, which is derived from Function Point Analysis (FPA), but overcomes some of its known defi- ciencies. The statistical results show that the new metric, Functional Elements (EF), and its submetric, Functional Elements of Transaction (EFt), have higher correlation with the effort in software development than FPA in the context of the analyzed data. The paper illustrates the application of the new metric as a tool to improve IT governance specifically in assessment, monitoring, and giving directions to the software development area.
 
+
+############################################################
+# SEGMENT: Heating_HVAC | DATE: 2026-04-09 14:21
+############################################################
+SOURCE: Department of Justice Sues New Jersey Township Over Gas Ban
+In the latest suit, the department is going after Morris Township, New Jersey, and an ordinance it passed in 2022. The ordinance bans natural gas, propane gas, and fuel oil infrastructure and appliances in new apartment complexes or apartment-style housing with 12 or more dwelling units.
+
+“The Township’s illegal interference with national energy policy must be stopped,” said Assistant Attorney General Brett A. Shumate in a written statement. “Congress preempted local efforts to outlaw gas stoves and other appliances Americans count on and prefer. This case is about upholding that choice.”
+
+The 10-page lawsuit claims the ban is “not only bad policy, it is also unlawful.” It says the Energy Policy and Conservation Act preempts state and local regulations concerning energy efficiency, energy use, and covered products subject to a federal conservation standard.
+
+Morris Township’s ordinance states that gas appliances emit several pollutants, including carbon monoxide and nitrogen oxide, that are linked to “several adverse health effects, particularly in children.” It further states that all-electric buildings will reduce overall energy demand and are safer.
+
+Township officials declined to comment, saying that the litigation is currently under attorney review.
+
+The administration’s lawsuit against the City of Morgan Hill and the City of Petaluma in California resulted in the cities passing ordinances last month rescinding their previous prohibitions on natural gas. Whether the same
+
+SOURCE: Merino Energy Introduces $3,800 Heat Pump Installed in an Hour or Less
+Designed with these barriers in mind, the Merino Mono’s room heat pump system houses all components in a single indoor unit, removing the need for an outdoor unit. Installation uses a simple through-wall ventilation connection rather than refrigerant lines, enabling a certified technician to complete the job in under one hour using standard tools, and with no electrical upgrade required. The result is a system that runs on a standard 120V outlet, installs in under one hour, and comes at a single published flat rate price of $3,800 — hardware and professional installation included.
+
+“Last year during an unexpected heat wave, I learned firsthand why getting a cooling system in your home is such a massive undertaking. Traditional solutions can cost as much as a car, take a week to install, and require sacrificing precious outdoor space," said Mary-Ann Rau, co-Founder and CEO of Merino Energy. "These aren't unsolvable problems — they just require a different approach, one that puts the customer and the installer at the center of every design decision.”
+
+Engineered for the Real World
+
+The Merino Mono delivers 7,500 BTU of heating and cooling capacity for spaces up to approximately 350 square feet — performance that rivals conventional mini-splits, without the infrastructure they require. Because the design eliminates refrigerant lines and outdoor equipment, certified technicians can complete installation in under one hour with no electrical panel upgrade, and no disruption to the 
+
+SOURCE: Boiler Basics: How a Century of Innovation and Energy Crisis Shaped Modern Heating
+Soon, the boiler industry was providing design engineers with numerous alternatives to this building standard. There were now options that resulted in less-polluting types of equipment, including #2 oil, natural gas, waste heat units, and electric units. Later on, condensing boilers were introduced, eliminating the need for a chimney stack.
+
+The control technology changed from electric/electronic and pneumatic-electric controls to digital control strategies. Today, this technology can include artificial intelligence to assist in managing the boiler and its associated components, such as pumps.
+
+For heating, ventilating, and air-conditioning (HVAC) service contractors, boiler basics go beyond providing the optimum boiler replacement, addition, and/or new installation for their clients. Here are some important issues, concerns, and features not to overlook:
+
+Primary fuel and its availability and reliability
+
+Number of units, e.g., one boiler at 100% capacity with no stand-by unit, two units sized at 60% capacity each, etc.
+
+Stand-by fuel, e.g., dual-fuel burner(s)
+
+Boiler operating pressure configuration, e.g., a low-pressure unit carrying the full load, most of the system's low-pressure load with individual mini-high pressure boiler(s) for isolated applications, such as serving sterilizer(s)
+
+Unit efficiency
+
+System operating pressure, e.g., low pressure, medium-high pressure
+
+Certification of boiler operator based on the equipment type
+
+Equipment first cost
+
+Equipment install
+
+SOURCE: Lawton Tubes employee wins at World Bowls Championships
+Nathan Caine, a warehouse operations team leader at Lawton Tubes’ Torrington Avenue base, helped England to silverware at this year’s World Bowls Championships in Norway.
+
+According to a statement, Nathan and his bowls partner competed against 11 other countries to be crowned the best in the world.
+
+Nathan noted that his day job had a huge influence on his bowls success.
+
+He said: “Bowls is a very tactical sport where you’re always thinking about how your next move will play out and the knock-on effect it could have, so you’re always thinking one step ahead.
+
+“The same approach applies at work, where I am leading a team of five people who are picking and packing a wide range of made-to-order copper tubes and fittings as efficiently as possible for our customers.
+
+“Ultimately it’s all about teamwork and communicating with each other, and fact that I am practicing and honing these skills on a daily basis in the warehouse has definitely helped me sharpen up my bowls.
+
+“Lawton Tubes have also been great in working around my bowls schedule. I have been able to switch to a Monday to Friday daytime role so that I can pursue meeting up with my local team mid-week and England during some weekends, whilst still being able to spend time with my family.
+
+“It’s been a memorable year on the bowls front, and my first thought after winning in Norway was ‘now we have to retain the title’.”
+
+Jon Brealey, operations manager at Lawton Tubes in Coventry, added: “Nathan has developed into a great 
+
+SOURCE: Drayton launches Golden Ticket giveaway
+Drayton has hidden 10 ‘Golden Tickets’ inside selected boxes of its two-port Motorised Valve product, as part of its ongoing Great Greggs Giveaway.
+
+Anyone who discovers a Golden Ticket inside a qualifying Motorised Valve box will be able to claim £50 worth of Greggs vouchers.
+
+To claim the prize, finders need to take a selfie of themselves holding their ticket and tagging Drayton on one of their social media channels. The company’s social media handles include @draytonheating on Instagram, Drayton Heating on Facebook and @DraytonHeating on TikTok.
+
+The promotion runs until 30 April 2026, with a total prize fund of up to £26,000 available.
+
+Nick Hunt, UK sales and marketing director at Drayton, said: “Installers work very hard and often have to grab lunch on the go, so we wanted to create something fun that also gives something back to the trade. Our Motorised Valve range is incredibly popular amongst heating engineers and the Golden Tickets add an extra layer of excitement to the Great Greggs Giveaway; you never know when opening a box might turn into a £50 treat!”
+
+SOURCE: Power On outlines heat network benefits
+Following the Future Homes Standard (FHS) announcement, Power On stated that heat networks are a cost-efficient, pragmatic solution for high-rise developments.
+
+According to a company statement, the FHS predominantly focuses on the use of individual technologies like PV solar panels and individual air source heat pumps to lower carbon emissions.
+
+However, the statement added that these are often not viable for high-rise developments where an air-source heat pump and/or solar panel on every flat would be logistically challenging and aesthetically detrimental.
+
+Neil Fitzsimons, managing director for Power On, said: “Heat networks are the perfect solution for the low-carbon heat and hot water needs of the UK, and they are the only feasible and cost-effective solution for high rise buildings.
+
+“The Future Homes Standard has given a longer timescale than was expected, or than we wanted, but our advice to developers is not to wait. Low carbon solutions are available now and they are cheaper than the traditional options if they are networked to provide for whole communities.”
+
+Power On stated that it has been delivering tried and tested solutions to assist in meeting Net Zero targets for complex, high-rise and high-density developments. These include Community Heat Hubs and Networked Ground Source Heat Pumps. The company reported that it already has more than 20,000 homes contracted to its heat networks solutions.
+
+The company said it wants to ensure that high-rise, high-density res
+
+SOURCE: Plus qu’une alarme, un bouclier connecté :  avec le Hub Tyxal+ Delta Dore redéfinit la protection de l’habitat
+Répondre au besoin croissant de sécurité par la modernité
+
+Aujourd’hui, 1 Français sur 5 a déjà subi un cambriolage. Sachant que dans 95% des cas, le déclenchement d’une sirène suffit à faire fuir l’intrus, s’équiper d’un système dissuasif devient une priorité. Pour y répondre avec la plus grande simplicité, Delta Dore propose avec le Hub Tyxal+ une expérience modernisée. L’alarme s’intègre naturellement au quotidien : son pilotage se fait entièrement depuis l’application Tydom, rendant l’usage plus fluide, nomade et accessible à tous les membres du foyer.
+
+Une sécurité 100% connectée et infaillible, même en cas de coupure
+
+Le Hub Tyxal+ a été conçu pour garantir une protection à chaque instant. Sa force réside dans sa continuité de service absolue grâce à une triple connectivité (Wi-Fi, Ethernet et relais 4G intégré). Véritable atout, la connexion 4G peut même être utilisée comme connexion principale pour sécuriser des sites isolés ou dépourvus de box internet. L’utilisateur est toujours averti en temps réel grâce à des alertes multicanales : il reçoit des notifications prioritaires, mais également des SMS et des appels vocaux via le réseau 4G. De plus, le pilotage intégral depuis l’application reste possible en connexion 4G seule.
+
+Même en cas de coupure de courant ou d’internet, le système reste invincible et dispose d’une autonomie record allant jusqu’à 7 jours sans alimentation électrique. Fidèle à l’ADN Delta Dore, le système assure une détection et une supervision en c
+
+SOURCE: La revue Lumières partenaire d’ARCHITECT@WORK Lyon
+La 8e édition d’ARCHITECT@WORK Lyon se tiendra les mercredi 10 et jeudi 11 juin 2026 à La Halle Tony Garnier. Cet événement unique, exclusivement destiné aux architectes et autres professionnels prescripteurs, présentera une sélection de plus de 250 nouveautés. Un programme varié et complet d’interventions et d’expositions sur l’architecture est également au rendez-vous. Une occasion à ne pas manquer !
+
+Un concept novateur et haut de gamme
+
+ARCHITECT@WORK est réservé exclusivement aux architectes et architectes d’intérieur. Sa scénographie originale et unique lui confère une atmosphère feutrée et raffinée.
+
+Le thème 2026 COURTS-CIRCUITS met en lumière la force des filières locales : matériaux de proximité, fabricants régionaux et collaborations directes qui réduisent les distances, les coûts et l’empreinte carbone.
+
+Exposition matériaux : Cocorico – Innovations locales, résilience globale
+
+En lien avec la thématique de cette édition 2026, l’équipe Innovathèque vous invite à découvrir une sélection de matières variées 100 % made in France !
+
+Dans un contexte de crise écologique et géopolitique qui souligne les limites de la mondialisation, des entreprises françaises conjuguant savoir-faire et innovation sont mises en lumière. Venez découvrir cette sélection de solutions innovantes bleu blanc rouge, qui font de la France un territoire résilient et riche en diversité.
+
+Exposition photographique : MATERIA architecture
+
+Coproduite par le Pavillon de l’Arsenal, Les Grands Ateliers,
+
+SOURCE: Agora Makers, leader français de l’éclairage public, s’associe à la  greentech mube pour lancer une gamme de luminaires intelligents  et végétalisés
+Au lendemain des élections municipales, alors que la transition écologique s’impose comme une priorité pour les mairies, mube, start-up française pionnière des mâts végétalisés intelligents, et le Groupe AGORA-MAKERS, leader français de l’éclairage public et du mobilier urbain, annoncent la signature d’un partenariat stratégique pour le lancement d’une gamme de mâts végétalisés en 2026.
+
+Cette alliance industrielle inédite associe l’innovation de mube à la capacité industrielle et à l’expertise historique des marques du Groupe AGORA MAKERS afin de déployer à plus
+
+grande échelle des infrastructures urbaines végétalisées.
+
+Une alliance industrielle « made in France » à vocation internationale
+
+Avec près de 12 millions de points lumineux en 2023*, l’éclairage public constitue l’une des principales infrastructures urbaines des collectivités en France.
+
+Dans le cadre de ce partenariat, les marques du Groupe AGORA MAKERS (GHM, ECLATEC, METALCO, BELLITALIA, CITYDESIGN, MY EQUILIBRIA, NEXIODE, ORANGE LIGHTING) fabriqueront et distribueront les mâts végétalisés intelligents mube, pour les projets d’aménagement (éclairage et mobilier urbain), en France et à l’international.
+
+Déjà déployées dans plusieurs projets urbains, les solutions mube franchissent avec ce partenariat une nouvelle étape de développement. Pour AGORA MAKERS, ce partenariat enrichit son offre avec une solution innovante répondant aux attentes croissantes des collectivités en matière de végétalisation et de biodiversi
+
+PAPER: Heat transfer in buildings : application to air solar heating and Trombe wall design
+ABSTRACT: The aim of this paper is to briefly recall heat transfer modes and explain their integration within a software dedicated to building simulation (CODYRUN). Detailed elements of the validation of this software are presented and two applications are finally discussed. One concerns the modeling of a flat plate air collector and the second focuses on the modeling of Trombe solar walls. In each case, detailed modeling of heat transfer allows precise understanding of thermal and energetic behavior of the studied structures. Recent decades have seen a proliferation of tools for building thermal simulation. These applications cover a wide spectrum from very simplified steady state models to dynamic simulation ones, including computational fluid dynamics modules (Clarke, 2001). These tools are widely available in design offices and engineering firms. They are often used for the design of HVAC systems and still subject to detailed research, particularly with respect to the integration of new fields (specific insulation materials, lighting, pollutants transport, etc.). Available from: http://www.intechopen.com/books/evaporation-condensation-and-heat-transfer/heat-transfer-in-buildings-application-to-solar-air-collector-and-trombe-wall-design
+
+PAPER: A Metric of Software Size as a Tool for IT Governance
+ABSTRACT: This paper proposes a new metric for software functional size, which is derived from Function Point Analysis (FPA), but overcomes some of its known defi- ciencies. The statistical results show that the new metric, Functional Elements (EF), and its submetric, Functional Elements of Transaction (EFt), have higher correlation with the effort in software development than FPA in the context of the analyzed data. The paper illustrates the application of the new metric as a tool to improve IT governance specifically in assessment, monitoring, and giving directions to the software development area.
+

@@ -80,3 +80,46 @@ If low-code platforms made it possible to launch without writing much code, gene
 SOURCE: Revolut rolls out AI assistant as part of product expansion push
 Your weekly update on the latest trends across (neo)banking, buy now pay later, payments and the fintech startup scene.
 
+
+############################################################
+# SEGMENT: Global_Startups_Geo | DATE: 2026-04-09 14:22
+############################################################
+SOURCE: OpenAI pauses Stargate UK in blow to Nscale and government
+OpenAI is pausing its Stargate AI infrastructure project in the UK in a blow to the government and data centre builder Nscale which was partnering with the US giant on the plan, alongside Nvidia.
+
+The San Francisco-based company cited concerns over energy costs and regulation. “We see huge potential for the UK’s AI future,” it said on Thursday.
+
+The UK project, which was announced in September, is part of a larger OpenAI plan to grow its global data centre footprint to deploy and train its AI models. Other Stargate projects are underway in the US, Norway and UAE.
+
+Advertisement
+
+Nscale, which raised a record-breaking $2bn Series C last month, is part of a cohort of ‘neoclouds’ — young companies responding to the huge uptick in demand for compute, triggered by the AI boom, by building data centres.
+
+Announcing the partnership with OpenAI and Nvidia back in September 2025, Nscale said it would “explore offtake of up to 8k Nvidia GPUs in Q1 2026”, with a potential to scale to 31k. The London-based company declined to share an update on whether the deal had been finalised with Sifted last month.
+
+Nscale declined to comment.
+
+The project was launched by the UK government during US president Donald Trump’s state visit to the country. Also announced in the raft of measures was an $18bn commitment from AI Pathfinder, a company which had its assets frozen by the high court earlier this year.
+
+Stargate UK was based across a number of data centre sites in the UK, including in Cobalt Par
+
+SOURCE: AI is rewriting the rules of European entrepreneurship
+AI is redrawing the map of European entrepreneurships. Founders no longer need deep technical teams, long build cycles or huge amounts of upfront funding to get started. In their wake is a new archetype: builders who assemble companies using AI and low-code tools, rather than coding everything from scratch.
+
+This shift is already visible. Stockholm-based Lovable is helping non-technical builders ship real software faster, while tools like Anthropic’s Claude now lets users build and share AI-powered apps with radically lower overheads.
+
+Taken together, these examples point to a shift that’s easy to miss if we only track funding rounds and unicorn counts: AI is changing the pattern of entrepreneurship itself, altering who starts, what gets built and what success looks like.
+
+Advertisement
+
+When the costs collapse, participation expands
+
+Entrepreneurship has always been shaped by two constraints: the financial cost of getting to a workable product and the technical know-how required to create it.
+
+Lowering barriers doesn’t simply increase the number of startups; it changes the composition of founders. A recent London Business School study of low-code e-commerce entrepreneurship found that communities historically underrepresented in entrepreneurship show higher uptake when a widely available low-code tool reduces not only the cost but also the technical hurdles of launching.
+
+If low-code platforms made it possible to launch without writing much code, generative AI constitutes a 
+
+SOURCE: Revolut rolls out AI assistant as part of product expansion push
+Your weekly update on the latest trends across (neo)banking, buy now pay later, payments and the fintech startup scene.
+

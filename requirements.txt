@@ -3,3 +3,6 @@ arxiv
 newspaper4k
 requests
 ollama
+qdrant-client
+anthropic
+python-dotenv

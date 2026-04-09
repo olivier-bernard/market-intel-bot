@@ -34,3 +34,82 @@ The heating market is experiencing a sharp divergence between regulatory volatil
 *   **Opportunity:** The "low-friction" installation segment (minimizing labor and infrastructure costs) represents a major untapped market for SMB installers.
 *   **Opportunity:** Leveraging "local resilience" and "Made in France" branding to appeal to the growing demand for domestic, high-quality, and ecologically responsible heating solutions.
 *   **Gap:** A potential market gap exists for integrated software that bridges the gap between individual residential heat pump design and large-scale community heat network planning.
+############################################################
+# Heating_HVAC | 09 April 2026 (2026-04-09 14:21)
+############################################################
+# MARKET INTELLIGENCE BRIEF: RESIDENTIAL & SMB HEATING SYSTEMS
+## Week of [Current Period]
+
+---
+
+## 1. Executive Summary
+
+**NEW SIGNAL: Federal legal escalation against municipal gas bans is intensifying and succeeding**, with the U.S. Department of Justice now targeting multi-unit residential ordinances (Morris Township, NJ) and citing federal energy policy preemption—a direct threat to the regulatory certainty that underpins heat pump adoption incentives in North America. Simultaneously, the "ultra-low-friction" heat pump segment is crystallizing as a distinct market category, with Merino Energy's $3,800 one-hour installation model now operationalized and competing directly against traditional mini-split complexity.
+
+---
+
+## 2. Key Findings
+
+- **NEW SIGNAL: Federal Preemption Doctrine Expanding.** The DOJ's lawsuit against Morris Township (targeting 12+ unit apartment bans) represents a strategic escalation beyond single-family gas stove bans. The argument that the Energy Policy and Conservation Act preempts state/local efficiency standards is now being tested on multi-unit residential infrastructure—the exact segment where heat networks and electrification have the strongest economic case. This creates acute uncertainty for developers and installers in states/municipalities with pending all-electric mandates.
+
+- **NEW SIGNAL: Monobloc Heat Pump Category Validated at Scale.** Merino Energy's commercial launch of a $3,800, 120V, one-hour-install heat pump (7,500 BTU, ~350 sq ft coverage) confirms that the "low-friction" segment identified in previous analysis is now a viable, priced product with clear installer and end-customer value propositions. No outdoor unit, no refrigerant lines, no electrical panel upgrade, no structural modification—this directly addresses the primary adoption barriers for SMB and retrofit markets.
+
+- **ESCALATION: Drayton's Trade Loyalty Strategy Intensifying.** The "Golden Ticket" giveaway (£26,000 prize fund through April 2026) signals aggressive installer retention amid competitive pressure. This complements previous findings on Drayton's trade-focused positioning but shows sustained investment in non-product differentiation (loyalty/gamification) rather than technical innovation.
+
+- **CONFIRMATION: Power On's High-Density Dominance Consolidating.** With 20,000+ homes already contracted to networked heat solutions and explicit positioning against the Future Homes Standard's individual heat pump/PV approach, Power On is operationalizing the "high-density decarbonization" opportunity flagged in previous analysis. The company's statement that individual heat pumps and solar are "logistically challenging and aesthetically detrimental" for multi-unit buildings is now a market-facing narrative, not internal strategy.
+
+- **CONTEXT: Boiler Control Technology Trajectory Confirmed.** Industry commentary confirms the shift from pneumatic/electronic to AI-assisted digital control strategies for boiler and pump management. This validates the need for software tools that can model and optimize complex hydraulic circuits—a potential product differentiation vector for the company's design platform.
+
+---
+
+## 3. Technology & Innovation Watch
+
+- **Monobloc Through-Wall Ventilation Design.** Merino's elimination of refrigerant lines and outdoor units via through-wall ventilation (rather than ductwork) represents a genuine engineering simplification. The 120V, standard-outlet operation removes electrical infrastructure as a barrier. This is distinct from traditional mini-splits and warrants technical assessment for potential adaptation or partnership.
+
+- **AI-Driven Boiler & Pump Optimization.** Industry sources confirm that modern boiler systems now integrate AI to manage pump performance and associated components. This suggests an opportunity for the company's design tools to embed predictive or adaptive control logic—moving beyond static heat load calculation toward dynamic system optimization.
+
+- **Advanced Thermal Simulation Maturity.** Academic and professional references to CODYRUN and similar tools for modeling solar air collectors and Trombe walls indicate that detailed transient thermal simulation is now standard in design offices. The company's tools should ensure parity with or superiority to these benchmarks, particularly for passive solar and hybrid heating scenarios.
+
+- **Smart Hub Convergence (Security/Energy).** Delta Dore's Tyxal+ Hub (4G/Ethernet/Wi-Fi, 7-day autonomy, integrated security/energy management) exemplifies the broader trend of multi-function smart home hubs. While security-focused, it signals that heating control platforms must integrate seamlessly into broader home automation ecosystems to remain relevant.
+
+---
+
+## 4. Competitor & Startup Radar
+
+- **Merino Energy: Product-Market Fit Achieved.** The $3,800 flat-rate, one-hour installation model is now live and marketed directly to consumers. This is a direct competitive threat to traditional installer-led mini-split sales and to any company positioning premium, complex heat pump design. Merino's success will likely trigger similar offerings from larger HVAC players (Lennox, Carrier, etc.).
+
+- **Power On: Scaling High-Density Networked Heat.** With 20,000+ contracted homes and explicit positioning against individual heat pump mandates, Power On is becoming the de facto standard for UK multi-unit residential decarbonization. The company's willingness to challenge the Future Homes Standard narrative suggests confidence in market traction and regulatory support.
+
+- **Drayton: Installer Loyalty Deepening.** The £26,000 Golden Ticket campaign (running 14+ months) indicates sustained investment in trade relationships. This is a defensive move against newer entrants (Merino, etc.) and suggests Drayton views installer switching risk as material.
+
+- **Agora Makers + mube Partnership: Urban Infrastructure Play.** The partnership to manufacture and distribute vegetated intelligent street lighting (2026 launch) is tangential to heating but signals a broader "smart city" ecosystem where heating, lighting, and environmental management converge. This could influence future district heating and urban thermal network design.
+
+---
+
+## 5. Actionable Recommendations
+
+- **Develop or Partner on Monobloc Heat Pump Design Tools.** The company should assess whether its design platform can be adapted to support Merino-style monobloc systems or similar ultra-simple heat pump configurations. If not, a partnership or integration with Merino (or equivalent European player) should be explored to ensure the platform remains relevant to the fastest-growing segment.
+
+- **Escalate Regulatory Monitoring in North America.** The DOJ's successful challenge to municipal gas bans creates a need for proactive advisory services to developers and installers. The team should develop a regulatory tracking dashboard and consider offering "scenario planning" tools that help customers navigate federal preemption risk and state-level variability.
+
+- **Integrate AI-Optimized Control Logic into Design Tools.** As boiler and heat pump controls become AI-driven, the company's design platform should move beyond static heat load calculation to include adaptive control recommendations, pump scheduling optimization, and predictive maintenance alerts. This could be a key differentiator against static design tools.
+
+- **Strengthen High-Density/Heat Network Capabilities.** Power On's success and the Future Homes Standard's implicit acknowledgment that individual heat pumps are unviable for multi-unit buildings creates a clear opportunity. The team should develop specialized software for heat network design, including load aggregation, network topology optimization, and cost-benefit modeling for developers.
+
+- **Monitor French "Made in France" Branding Opportunity.** The ARCHITECT@WORK Lyon 2026 theme ("COURTS-CIRCUITS" / local supply chains) and the Agora Makers–mube partnership signal strong market appetite for locally-sourced, resilient solutions. The company should consider positioning its tools and any heating solutions as "French engineering" to capture this sentiment, particularly in the SMB installer and regional developer segments.
+
+---
+
+## 6. Risks & Opportunities
+
+**Risks:**
+
+- **Federal Preemption Doctrine Threatens Regulatory Certainty.** If the DOJ succeeds in overturning municipal all-electric mandates (as it did in Morgan Hill and Petaluma), heat pump adoption incentives in North America could collapse. This directly impacts the addressable market for heat pump design tools in the US and Canada. The company should model scenarios in which gas infrastructure remains legal and competitive in key markets.
+
+- **Merino-Style Commoditization of Heat Pump Installation.** If monobloc, one-hour-install heat pumps become the dominant form factor, the value of complex heat load calculation and system design tools diminishes. Installers may shift to "plug-and-play" models that require minimal design input, reducing demand for the company's software.
+
+- **Power On's Consolidation of High-Density Segment.** With 20,000+ homes contracted and explicit regulatory support, Power On may become the de facto standard for UK/EU multi-unit residential decarbonization. If the company does not develop competitive heat network design capabilities, it risks losing the high-margin, high-complexity segment to Power On or similar networked heat specialists.
+
+**Opportunities:**
+
+- **Regulatory Fragmentation Creates Advisory Services Gap.** The diverg
