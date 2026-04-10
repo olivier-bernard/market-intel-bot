@@ -24,7 +24,8 @@ Gather these before starting:
 
 ### Step 1: Clone Repository
 ```bash
-cd /home/olivier/scripts/news
+git clone https://github.com/your-org/market-intel-bot.git
+cd market-intel-bot
 # (or your project directory)
 ```
 
@@ -97,7 +98,7 @@ python3 bot.py --test-query "What are supply chain challenges?"
 ### Step 8: Schedule Collection (Cron)
 ```bash
 crontab -e
-# Add: 0 9 * * * cd /home/olivier/scripts/news && source .venv/bin/activate && python3 collect_news.py >> logs/collect.log 2>&1
+# Add: 0 9 * * * cd ~/market-intel-bot && source .venv/bin/activate && python3 collect_news.py >> logs/collect.log 2>&1
 ```
 - [ ] Cron job created
 - [ ] Verified with `crontab -l`
@@ -105,7 +106,7 @@ crontab -e
 
 ### Step 9: Schedule Re-ingestion (Cron)
 ```bash
-# Add: 0 23 * * * cd /home/olivier/scripts/news && source .venv/bin/activate && python3 ingest.py >> logs/ingest.log 2>&1
+# Add: 0 23 * * * cd ~/market-intel-bot && source .venv/bin/activate && python3 ingest.py >> logs/ingest.log 2>&1
 ```
 - [ ] Ingestion scheduled for nightly
 

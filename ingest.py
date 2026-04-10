@@ -107,6 +107,7 @@ class OllamaEmbedder(EmbeddingProvider):
     
     def __init__(self, model: str, host: str):
         self.model = model
+        self.host = host
         self.client = ollama.Client(host=host)
         logger.info(f"[Ollama] Initialized with model={model}, host={host}")
     
@@ -127,7 +128,7 @@ class OllamaEmbedder(EmbeddingProvider):
         """Release the model from GPU memory immediately."""
         try:
             requests.post(
-                f"{self.client._client.base_url}api/embed",
+                f"{self.host.rstrip('/')}/api/embed",
                 json={"model": self.model, "input": "", "keep_alive": 0},
                 timeout=10,
             )

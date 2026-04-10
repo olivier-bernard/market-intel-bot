@@ -355,3 +355,98 @@ ABSTRACT: The 2023-2032 Planetary Science and Astrobiology Decadal Survey Origin
 PAPER: IoT-Driven Smart Management in Broiler Farming: Simulation of Remote Sensing and Control Systems
 ABSTRACT: Parameter monitoring and control systems are crucial in the industry as they enable automation processes that improve productivity and resource optimization. These improvements also help to manage environmental factors and the complex interactions between multiple inputs and outputs required for production management. This paper proposes an automation system for broiler management based on a simulation scenario that involves sensor networks and embedded systems. The aim is to create a transmission network for monitoring and controlling broiler temperature and feeding using the Internet of Things (IoT), complemented by a dashboard and a cloud-based service database to track improvements in broiler management. We look forward this work will serve as a guide for stakeholders and entrepreneurs in the animal production industry, fostering sustainable development through simple and cost-effective automation solutions. The goal is for them to scale and integrate these recommendations into their existing operations, leading to more efficient decision-making at the management level.
 
+
+############################################################
+# SEGMENT: Medical_CCS | DATE: 2026-04-10 15:55
+############################################################
+SOURCE: PMI Kyoto Packaging Systems at Interphex 2026
+Pharmaceutical packaging today demands more than just speed—it requires precision, flexibility, and absolute reliability. As drug complexity increases and production becomes more customised, manufacturers need packaging systems that can adapt quickly while maintaining strict compliance and product integrity.
+
+At PMI Kyoto Packaging Systems, we specialise in delivering custom pharmaceutical packaging solutions built to meet these evolving demands. Backed by our parent company in Kyoto, Japan, with decades of expertise in pharmaceutical packaging, we bring deep industry knowledge and proven engineering capabilities to every project.
+
+One of the biggest challenges pharmaceutical manufacturers face is changeover time. Traditional systems can take hours—or even an entire shift—to switch between product formats, leading to costly downtime. PMI Kyoto addresses this with highly efficient, custom-designed systems that dramatically reduce changeover times, in some cases from 6–8 hours down to as little as 30–60 minutes. This enables manufacturers to maintain productivity while supporting smaller batch sizes and personalised medicine trends.
+
+Our approach goes beyond simply supplying machines. We design and build fully integrated packaging systems tailored to each customer’s production environment. Whether integrating with existing equipment or building a complete line from scratch, our solutions are engineered for seamless compatibility, reliability, and scalability.
+
+PMI Kyoto’s exper
+
+SOURCE: Interphex 2026: MasterControl to highlight its AI-enhanced quality, manufacturing and asset management platform
+MasterControl will be on site at Interphex 2026, showcasing how its AI-enhanced, cloud-based software platform is helping pharmaceutical and biotech manufacturers deliver life-changing products to more people, sooner.
+
+Attendees can stop by the MasterControl booth for hands-on demos of the MasterControl Excellence Suite — used by more than 1,100 companies worldwide — which digitises and automates critical processes from document control and batch records to equipment calibration and maintenance, eliminating paper-based bottlenecks and reducing the risk of costly errors.
+
+The suite features Manufacturing Excellence (Mx), which delivers production records, logbooks, and other manufacturing execution tools designed to reduce errors, accelerate review and release, and increase throughput.
+
+Quality Excellence (Qx) builds on that foundation with advanced quality event management, document control, training management, and risk management tools — giving teams everything they need to stay audit-ready and compliant.
+
+Rounding out the platform, Asset Excellence (Ax) lets manufacturers track every stage of the asset lifecycle and reduce downtime by scheduling maintenance based on actual asset performance.
+
+Visitors can also explore MasterControl's suite of ISO 42001-certified, life-sciences-specialised AI tools. Designed to be human-driven and compliance-friendly, these solutions help quality and manufacturing teams save hundreds of hours annually on tasks like quality event investigati
+
+SOURCE: Berkshire showcases its eco-friendly disinfecting solutions at Interphex 2026
+Berkshire Corporation, a global leader in contamination control products, is excited to showcase its eco-friendly disinfecting solution, VersaHOCl®, at the upcoming INTERPHEX trade show. VersaHOCl® is an EPA-registered, ready-to-use (RTU) one-step cleaner and disinfectant. Made in the USA without preservatives or fragrances, Berkshire's VersaHOCl® offers a safer, more effective solution for cleaning and disinfecting. It eliminates 99.99% of bacteria, viruses, and fungi, making it ideal for high-traffic environments. Unlike traditional disinfectants, VersaHOCl® leaves no harmful residues and is safe around people. Ideal for pharmaceutical manufacturing, healthcare facilities, and cleanroom environments, VersaHOCl® is designed for professionals seeking reliable contamination control solutions.
+
+This product is a shelf-stable 0.065% hypochlorous acid with no added chemical stabilisers, providing low residue and excellent surface compatibility. It also meets essential cleanroom cleaning protocol requirements.
+
+Pure. Safe. Effective.
+
+Why use VersaHOCl®?
+
+Contamination-controlled environments and general cleaning: Delivers broad-spectrum efficacy against bacteria, viruses, and fungi as an all-in-one cleaner and disinfectant.
+
+Enhanced safety in controlled environments: Features a low-residue formula that minimises potential risks.
+
+Compatibility with sensitive surfaces and equipment: Offers excellent surface compatibility, ensuring versatility without causing any damage.
+
+Health a
+
+SOURCE: Check for Yourself: How to Effectively Contact CMC CDMO References
+It’s a complicated process for a pharmaceutical Sponsor company to screen potential new CDMO partners for an API or drug product development program. The first priority is to find several potential CDMOs with the location and capabilities that match the scope of your project. It’s possible to find multiple good options, so the next challenge is to select the best fit.
+
+Now you’ve interviewed your top candidate company by phone—and they look promising! Similar to hiring a new employee, it’s important to check the professional references of your CDMO. It’s quite reasonable to ask this attractive CDMO for references from other Sponsors who have worked with them in the past.
+
+How do you get the most out of that CDMO Reference Check phone call?
+
+Why Check CDMO References?
+
+A wise hiring manager would certainly check professional references before hiring a new executive. A smart investor would absolutely conduct Due Diligence before funding a startup company. In the same way, references are a critical last step when selecting a CDMO.
+
+Like hiring and investing, selecting a CDMO partner will begin a relationship that should last several years and require substantial cash. This will be a relationship you don’t want to undo, once begun. Reference checks are a great way to qualify the soft skills of a potential partner.
+
+Clients should be comfortable requesting references from a potential CDMO partner before they sign a Letter of Intent or Contract.
+
+There are many steps in the CDMO sc
+
+SOURCE: Parenteral and Sterile Fill-Finish Development and Manufacturing Trends
+As the rapid expansion of biologics continues, today’s high‑concentration injectables, prefilled syringes and cartridges, as well as suspensions, present unique challenges for manufacturers. Increasingly complex therapeutics with smaller commercial volumes such as cell and gene therapies, and high value, low volume drugs, have shifted demand for parenteral drug development and manufacturing services.
+
+Today’s contract development and manufacturing organizations (CDMOs) must be capable of manufacturing small batch sizes, handling complex biologics, and using novel processing technologies. Additionally, manufacturers must address operational complexities, demanding contamination controls, and the need for highly specialized fill-finish expertise and equipment.
+
+CDMOs specializing in the parenteral and sterile fill-finish space share insight on the biggest challenges and opportunities facing parenteral and sterile drug product manufacturers, the technologies and capabilities needed in today’s market, and the trends expected to further drive growth.
+
+Challenges and Opportunities
+
+Anticipating demand is key for CDMOs. Keeping abreast of market changes and trends and investing in the right capabilities early puts them in a position to provide much-needed capacity.
+
+The growing complexity of today’s therapeutics presents significant challenges for parenteral and sterile drug product manufacturers. Among them, high‑concentration biologics, establishing proper containment, particularl
+
+SOURCE: Co-Creating the Future of Consumer Health
+A consumer health product can be clinically sound, fully compliant, and manufactured at scale—yet still fail. When this happens, the reasons are often not scientific, but human: perhaps the dosage form is unpleasant, inconvenient, or simply does not fit into real routines. In the consumer healthcare (CHC) and over-the-counter (OTC) markets, those details can determine whether a product is selected, used consistently and repurchased, or quietly abandoned.
+
+At the same time, competition in these markets is intensifying. Categories are increasingly crowded, price pressure is squeezing margins, and agile new brands are raising expectations around convenience, sensory experience, and usability.
+
+Traditionally, many CDMOs have been positioned primarily as manufacturing partners: executing predefined briefs and delivering against established specifications. In this model, brand owners led concept development internally, and CDMOs were brought in once the product direction was already largely fixed.
+
+But the CHC market is now placing pressure on brand owners to innovate more intelligently—and to do so with greater speed and confidence. As a result, innovation increasingly depends on upstream collaboration between brand owners and their CDMO partners. Forward-thinking CDMOs are evolving into strategic co-innovation partners who can combine technical depth, consumer understanding, and long-term reliability to help shape concepts, not only manufacture products.
+
+Market Forces Driving Ch
+
+PAPER: A New Strategy for the Exploration of Venus
+ABSTRACT: The 2023-2032 Planetary Science and Astrobiology Decadal Survey Origins, Worlds, and Life recommended that "NASA develop scientific exploration strategies, as it has for Mars, in areas of broad scientific importance, e.g., Venus... that have an increasing number of U.S. missions and international collaboration opportunities" (OWL, p.22-10). In NASA's initial responses to that Decadal Survey, the agency asserted that "...specific scientific exploration strategies should be community generated by bodies such as the Analysis Groups," thus placing the onus on the planetary community to generate and support these exploration strategies. In late 2022, the Venus Exploration Analysis Group began a project to develop a new exploration strategy for Venus, reflecting the 2021 selections of the VERITAS, DAVINCI, and EnVision missions and the sweeping comparative planetology recommendations relevant to Venus in Origins, Worlds, and Life.
+  This is that strategy.
+  Taking a broad look at the scientific, technological, and programmatic advances required to address the key outstanding questions that Venus poses, and predicated on VERITAS, DAVINCI, and EnVision flying as planned in the early 2030s, this report outlines a set of actions available to NASA, VEXAG, and the planetary science community at large to establish a sustained program of Venus exploration in the years and decades ahead. Key to this approach is recognizing Venus as a unique setting where multiple, cross-disciplinary, Decadal-level planetary, Earth, heliophysics, and exoplanet science questions can be addressed, as well as being a worthy target of exploration in its own right.
+  This report offers Assessments of the current state of Venus exploration, and Actions for the U.S. and international Venus community, as well as NASA, to consider. This strategy is a living document and should be updated as warranted.
+
+PAPER: IoT-Driven Smart Management in Broiler Farming: Simulation of Remote Sensing and Control Systems
+ABSTRACT: Parameter monitoring and control systems are crucial in the industry as they enable automation processes that improve productivity and resource optimization. These improvements also help to manage environmental factors and the complex interactions between multiple inputs and outputs required for production management. This paper proposes an automation system for broiler management based on a simulation scenario that involves sensor networks and embedded systems. The aim is to create a transmission network for monitoring and controlling broiler temperature and feeding using the Internet of Things (IoT), complemented by a dashboard and a cloud-based service database to track improvements in broiler management. We look forward this work will serve as a guide for stakeholders and entrepreneurs in the animal production industry, fostering sustainable development through simple and cost-effective automation solutions. The goal is for them to scale and integrate these recommendations into their existing operations, leading to more efficient decision-making at the management level.
+

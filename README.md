@@ -15,7 +15,8 @@ News collection → semantic indexing → RAG-powered Q&A. Automates market moni
 
 ```bash
 # 1. Setup
-cd /home/olivier/scripts/news
+git clone https://github.com/your-org/market-intel-bot.git
+cd market-intel-bot
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
@@ -103,11 +104,11 @@ Live Q&A in Nextcloud. Polls channels, detects questions, retrieves RAG context,
 - **Public channel** (group): Answers only questions with `@marketbot` mention (to avoid spam)
 
 ```bash
-python3 bot.py --channel both --poll-interval 30  # Monitor all channels continuously
+python3 bot.py --poll-interval 30  # Monitor all channels continuously
 python3 bot.py --test-query "Your question?"      # Test single query (offline)
 
 # Run in background:
-nohup python3 bot.py --channel both > bot.log 2>&1 &
+nohup python3 bot.py > bot.log 2>&1 &
 ```
 
 **See [BOT_DEPLOYMENT_GUIDE.md](.context/BOT_DEPLOYMENT_GUIDE.md) for production setup & background execution.**
@@ -125,7 +126,7 @@ nohup python3 bot.py --channel both > bot.log 2>&1 &
 
 ### Installation
 ```bash
-cd /home/olivier/scripts/news
+cd ~/market-intel-bot
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -159,13 +160,13 @@ EMAIL_SENDER=feedback@sapiochain.io
 Add to crontab:
 ```bash
 # Daily 9 AM
-0 9 * * * cd /home/olivier/scripts/news && source .venv/bin/activate && python3 collect_news.py
+0 9 * * * cd ~/market-intel-bot && source .venv/bin/activate && python3 collect_news.py
 
 # Ingest daily 10 AM (after collection)
-0 10 * * * cd /home/olivier/scripts/news && source .venv/bin/activate && python3 ingest.py
+0 10 * * * cd ~/market-intel-bot && source .venv/bin/activate && python3 ingest.py
 
 # Bot runs continuously in background
-@reboot nohup python3 /home/olivier/scripts/news/bot.py > /home/olivier/scripts/news/bot.log 2>&1 &
+@reboot nohup python3 ~/market-intel-bot/bot.py > ~/market-intel-bot/bot.log 2>&1 &
 ```
 
 ---

@@ -300,3 +300,115 @@ ABSTRACT: Camera calibration in broadcast sports videos presents numerous challe
 PAPER: Sports Business Administration and New Age Technology: Role of AI
 ABSTRACT: This chapter explores the complexities of sports governance, taxation, dispute resolution, and the impact of digital transformation within the sports sector. This study identifies a critical research gap regarding the integration of innovative technologies to enhance governance and talent identification in sports law. The objective is to evaluate how data-driven approaches and AI can optimize recruitment processes; also ensuring compliance with existing regulations. A comprehensive analysis of current governance structures and taxation policies,(ie Income Tax Act and GST Act), reveals preliminary results indicating that reform is necessary to support sustainable growth in the sports economy. Key findings demonstrate that AI enhances player evaluation by minimizing biases and expanding access to diverse talent pools. While the Court of Arbitration for Sport provides an efficient mechanism for dispute resolution. The implications emphasize the need for regulatory reforms that align taxation policies with international best practices, promoting transparency and accountability in sports organizations. This research contributes valuable insights into the evolving dynamics of sports management, aiming to foster innovation and integrity in the industry.
 
+
+############################################################
+# SEGMENT: Sport_Market | DATE: 2026-04-10 15:56
+############################################################
+SOURCE: NFL in DOJ antitrust investigation over TV rights distribution model
+DOJ says investigation is about “affordability and creating an even playing field for providers”
+
+NFL defends media distribution model, calling it “fan and broadcaster-friendly”
+
+Forbes has estimated that watching every game last season cost around US$765
+
+The Wall Street Journal (WSJ) first reported the investigation had been opened earlier this week. A government official has since confirmed the investigation to ABC News, stating that it focuses on “affordability and creating an even playing field for providers”.
+
+The NFL’s 11-year, US$110 billion deals with Amazon, CBS, ESPN, Fox and NBC expire in 2032. Christmas Day games air on Netflix and some international games are also shown on NFL Network, which was acquired by ESPN earlier this year as part of a US$3 billion deal. Additionally, some postseason games require subscriptions, and the NFL has previously awarded select fixtures to streaming services ESPN+ and Peacock.
+
+As well as its national broadcast deals, all NFL games are available for free on local networks within the teams’ home markets.
+
+The Sports Broadcasting Act of 1961 provides limited protections for the NFL, allowing leagues to pool broadcast rights across all their teams and sign league-wide exclusive contracts with national networks. The act also includes a rule permitting blackouts of local games, which still applies to out-of-market packages sold by the league.
+
+The NFL ended local TV blackouts after the 2014 season, which had applied to games within 75
+
+SOURCE: AUBL lands investment from Marc Lasry and David Blitzer
+The Asian University Basketball League (AUBL) has closed its Series A funding round, with Marc Lasry’s Avenue Capital Group and David Blitzer’s Bolt Ventures among the investors.
+
+Key details:
+
+Funding round was led by Blue Pool Capital, the family office of Brooklyn Nets owner and Alibaba co-founder Joe Tsai
+
+Other new investors include Chinese basketball icon Yao Ming, Nan Fung Group and venture capital firm HSG (formerly Sequoia China)
+
+Sportico reports the round was estimated to be worth at least eight figures
+
+Context:
+
+Launched last year, the AUBL’s inaugural tournament attracted more than 29,000 live fans and over 65 million live streaming views. Sanctioned by the Asian University Sports Federation (AUSF), the league has secured partnerships with brands such as Under Armour and JP Morgan Private Bank.
+
+Tsai, who previously invested in the league’s seed round, is now joined by Blitzer and Lasry, meaning that three current or former National Basketball Association (NBA) team owners have invested in the AUBL.
+
+This year, the league will hold a week-long competition in Hangzhou, China, featuring 12 university basketball teams from across Asia, including sides from Japan and South Korea. Teams from the Philippines and Australia will also compete for the first time.
+
+The AUBL will also debut a 16-team home-and-away season in November, running through April 2027.
+
+Comment:
+
+“We’re thrilled to welcome our Series A investors,” said Jay Li, chief executive and co-founder of AUBL
+
+SOURCE: Arsenal tap Meta for global WhatsApp and Facebook partnership
+Arsenal have launched a new global partnership with tech giant Meta, the parent company of Facebook and WhatsApp.
+
+Key details:
+
+Fans will have access to new digital experiences and exclusive opportunities through the official WhatsApp channel and Facebook’s official page
+
+A series of activations will be produced at the Emirates Stadium across April
+
+Those in Arsenal Facebook communities will have opportunities to attend games
+
+Context:
+
+This is the latest sports team partnership for Meta, which has also collaborated with the Mercedes Formula One team, and its biggest in club soccer to date.
+
+For Arsenal, Meta becomes the latest company added to their partnership portfolio, following deals with ADT and HFM last month.
+
+The partnership launch was commemorated with the premiere of a new video, released across Arsenal, WhatsApp and Facebook’s owned channels, including YouTube, Instagram and in-app.
+
+Comment:
+
+“Our partnership with Meta builds on how our supporters already come together, wherever they are in the world, and will create more ways to feel closer and more connected to our club,” said Juliet Slot, chief commercial officer at Arsenal.
+
+“As we continue to compete to win major trophies, partnerships like this play an important role in supporting that ambition and strengthening our connection with supporters.”
+
+SOURCE: Peripheral Labs taps into self-driving car sensors to bring sports fans right into the game
+Multiple reports suggest that live sports viewing has declined for certain sports, especially among Gen Z. To solve this, leagues and broadcasters are trying to make sports more engaging for fans with different kinds of viewing experiences, stats, and analysis.
+
+One way to do this is using volumetric video generation that lets users view the play from various angles, giving an inside-the-video-game experience. The core technology uses numerous cameras to capture the footage in 3D for everyone to look at it from various viewpoints. Canada-based Peripheral Labs wants to make this technology affordable for leagues and teams so it can reach more broadcasters and fans.
+
+Peripheral Labs was founded by Kelvin Cui and Mustafa Khan in 2024. Both have worked on driverless cars for the University of Toronto’s team, winning several trophies. Khan has worked as a researcher at Huawei, and Cui has experience working on chassis systems as a software engineer at Tesla.
+
+“Both Mustafa and I are huge sports fans. He has been a massive Arsenal fan, and I grew up watching the Vancouver Canucks since I was seven. When Mustafa showed me his research about 3D reconstruction, my brain said it would be cool to watch hockey like this [in a free-flowing, multi-angle way]. This is how we started on Peripheral Labs,” Cui said in a call with TechCrunch.
+
+The company said the idea of volumetric generation isn’t new. But with the new AI models and advances in computer vision, its founders are confident the 
+
+SOURCE: It’s official: Fubo is combining with Hulu Live TV
+Fubo and Hulu Live TV are officially joining forces.
+
+After some buzz earlier this year about the groundbreaking transaction, it’s now a done deal. The two companies announced on Wednesday that they’ve wrapped up their agreement to combine Fubo’s sports-centric platform with Hulu’s live TV service, following a nod of approval from Fubo shareholders last month.
+
+This is a game-changer in the streaming landscape as the new entity becomes the sixth-largest Pay TV provider in the U.S., boasting nearly 6 million subscribers. That puts the newly combined company in direct competition with YouTube TV, which leads with around 10 million subscribers.
+
+Although this deal creates a larger entity and impacts market competition by reducing the number of independent streaming players, sources report that Disney and Fubo have received clearance from the Justice Department’s Antitrust Division to proceed with the transaction.
+
+One key highlight is the integration of Fubo’s sports offering with Hulu’s comprehensive entertainment library. Together, the platform offers an impressive lineup of over 55,000 live sporting events each year, a significant draw for sports fans. Additionally, Fubo subscribers will have access to a substantial collection of popular shows and movies that were previously unavailable to them.
+
+Another benefit of the merger is that it will offer customers more flexible options. The companies plan to offer several plan options, including smaller “skinny” bundles and more “ro
+
+SOURCE: The Oakland Ballers let an AI manage the team. What could go wrong?
+There’s a classic episode of “The Simpsons” in which the sly businessman Mr. Burns recruits real Major League Baseball players to join his company softball team in order to win a bet. But when the championship is on the line, Mr. Burns pulls eight-time National League all-star Darryl Strawberry for a substitute, Homer Simpson.
+
+“You’re a left-hander, and so is the pitcher. If I send up a right-handed batter, it’s called playing the percentages,” Mr. Burns says to Strawberry. “It’s what smart managers do to win ball games.”
+
+High-level baseball is very mathematically driven, with teams hiring dozens of data engineers to study granular statistics that can inform managerial decisions. But like Mr. Burns in that episode of “The Simpsons,” it’s tempting to overanalyze baseball statistics to the point of absurdity.
+
+The Oakland Ballers, an independent Pioneer League baseball team, took that concept of “playing the percentages” to the next level: They let an AI manage the team for a game.
+
+The Ballers were founded by edtech entrepreneur Paul Freedman as a salve to the departure of the beloved Oakland A’s, the Major League Baseball team that owner John Fisher ripped away from local fans in what’s regarded as one of the most insidious managerial moves in sports history. Though they’re not a Major League team, the Oakland Ballers — coyly, the Oakland B’s — established an unprecedented national community of fans who rallied around the team in protest the departure of the A’s. After only
+
+PAPER: PnLCalib: Sports Field Registration via Points and Lines Optimization
+ABSTRACT: Camera calibration in broadcast sports videos presents numerous challenges for accurate sports field registration due to multiple camera angles, varying camera parameters, and frequent occlusions of the field. Traditional search-based methods depend on initial camera pose estimates, which can struggle in non-standard positions and dynamic environments. In response, we propose an optimization-based calibration pipeline that leverages a 3D soccer field model and a predefined set of keypoints to overcome these limitations. Our method also introduces a novel refinement module that improves initial calibration by using detected field lines in a non-linear optimization process. This approach outperforms existing techniques in both multi-view and single-view 3D camera calibration tasks, while maintaining competitive performance in homography estimation. Extensive experimentation on real-world soccer datasets, including SoccerNet-Calibration, WorldCup 2014, and TS-WorldCup, highlights the robustness and accuracy of our method across diverse broadcast scenarios. Our approach offers significant improvements in camera calibration precision and reliability.
+
+PAPER: Sports Business Administration and New Age Technology: Role of AI
+ABSTRACT: This chapter explores the complexities of sports governance, taxation, dispute resolution, and the impact of digital transformation within the sports sector. This study identifies a critical research gap regarding the integration of innovative technologies to enhance governance and talent identification in sports law. The objective is to evaluate how data-driven approaches and AI can optimize recruitment processes; also ensuring compliance with existing regulations. A comprehensive analysis of current governance structures and taxation policies,(ie Income Tax Act and GST Act), reveals preliminary results indicating that reform is necessary to support sustainable growth in the sports economy. Key findings demonstrate that AI enhances player evaluation by minimizing biases and expanding access to diverse talent pools. While the Court of Arbitration for Sport provides an efficient mechanism for dispute resolution. The implications emphasize the need for regulatory reforms that align taxation policies with international best practices, promoting transparency and accountability in sports organizations. This research contributes valuable insights into the evolving dynamics of sports management, aiming to foster innovation and integrity in the industry.
+

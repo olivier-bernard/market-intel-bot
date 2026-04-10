@@ -85,7 +85,7 @@ if LLM_PROVIDER == "claude":
     if not CLAUDE_API_KEY:
         logger.error("CLAUDE_API_KEY not set in .env")
         sys.exit(1)
-    llm_client = Anthropic(api_key=CLAUDE_API_KEY)
+    llm_client = Anthropic(api_key=CLAUDE_API_KEY, base_url="https://api.anthropic.com")
     logger.info(f"[LLM] Using Claude ({CLAUDE_MODEL})")
 else:
     llm_client = ollama.Client(host=OLLAMA_HOST)
@@ -125,20 +125,20 @@ class NextcloudAPI:
     """Nextcloud Talk API client."""
     
     def __init__(self, url: str, user: str, password: str):
-        self.url = url
+        self.url = url.rstrip("/")
         self.user = user
         self.password = password
         self.session = requests.Session()
         self.session.auth = (user, password)
-        self.session.headers.update({"OCS-APIRequest": "true"})
+        self.session.headers.update({"OCS-APIRequest": "true", "Accept": "application/json"})
         logger.info(f"[Nextcloud] Initialized for {url}")
     
     def get_messages(self, token: str, limit: int = 50) -> List[Message]:
         """Fetch messages from a channel."""
-        endpoint = f"{self.url}/ocs/v2.php/apps/spreed/api/v4/chat/{token}"
+        endpoint = f"{self.url}/ocs/v2.php/apps/spreed/api/v1/chat/{token}"
         
         try:
-            response = self.session.get(endpoint, params={"limit": limit})
+            response = self.session.get(endpoint, params={"limit": limit, "lookIntoFuture": 0})
             response.raise_for_status()
             data = response.json()
             
@@ -166,9 +166,22 @@ class NextcloudAPI:
             logger.error(f"[Nextcloud] Failed to fetch messages: {e}")
             return []
     
+    def get_rooms(self) -> List[Dict]:
+        """List all conversations the bot user is part of."""
+        endpoint = f"{self.url}/ocs/v2.php/apps/spreed/api/v4/room"
+        try:
+            response = self.session.get(endpoint)
+            response.raise_for_status()
+            data = response.json()
+            if "ocs" in data and "data" in data["ocs"]:
+                return data["ocs"]["data"]
+        except Exception as e:
+            logger.error(f"[Nextcloud] Failed to fetch rooms from {self.url}: {e}")
+        return []
+
     def post_message(self, token: str, message: str, parent_id: Optional[int] = None) -> bool:
         """Post a message to a channel."""
-        endpoint = f"{self.url}/ocs/v2.php/apps/spreed/api/v4/chat/{token}"
+        endpoint = f"{self.url}/ocs/v2.php/apps/spreed/api/v1/chat/{token}"
         
         payload = {
             "message": message,
@@ -213,7 +226,15 @@ class QdrantRAG:
             collections = [f"news_{topic.lower()}"]
         else:
             collections = [f"news_{t.lower()}" for t in TOPICS]
-        
+
+        # Unload the LLM first so the embed model can fit in VRAM
+        try:
+            import requests as _req
+            _req.post(f"{OLLAMA_HOST}/api/generate",
+                      json={"model": OLLAMA_MODEL, "keep_alive": 0}, timeout=5)
+        except Exception:
+            pass
+
         # Embed the query using Ollama (consistent with ingest)
         try:
             embed_response = ollama.Client(host=OLLAMA_HOST).embed(
@@ -224,17 +245,27 @@ class QdrantRAG:
         except Exception as e:
             logger.error(f"[RAG] Failed to embed query: {e}")
             return results
-        
+
+        # Release embed model from GPU so the LLM can load without contention
+        try:
+            _req.post(
+                f"{OLLAMA_HOST}/api/embed",
+                json={"model": "nomic-embed-text", "input": "", "keep_alive": 0},
+                timeout=5,
+            )
+        except Exception:
+            pass
+
         # Search each collection
         for collection in collections:
             try:
-                search_results = self.client.search(
+                search_results = self.client.query_points(
                     collection_name=collection,
-                    query_vector=query_embedding,
+                    query=query_embedding,
                     limit=limit,
                     score_threshold=RAG_SIMILARITY_THRESHOLD,
-                )
-                
+                ).points
+
                 for scored_point in search_results:
                     payload = scored_point.payload
                     context = RAGContext(
@@ -247,7 +278,7 @@ class QdrantRAG:
                     )
                     results.append(context)
             except Exception as e:
-                logger.warn(f"[RAG] Search failed for {collection}: {e}")
+                logger.warning(f"[RAG] Search failed for {collection}: {e}")
         
         # Sort by score and limit total results
         results.sort(key=lambda x: x.score, reverse=True)
@@ -363,7 +394,24 @@ class Bot:
             self.channels.append((segment_name, nc_token, self._api_cache[key], nc_user))
 
         logger.info(f"[Bot] Monitoring {len(self.channels)} channel(s) across {len(self._api_cache)} server(s)")
-    
+
+    def sync_dm_channels(self):
+        """Auto-discover one-to-one DM channels users opened with the bot."""
+        known_tokens = {token for _, token, _, _ in self.channels}
+        new_count = 0
+        for (nc_url, nc_user, nc_pass), api in self._api_cache.items():
+            for room in api.get_rooms():
+                token = room.get("token", "")
+                # type 1 = one-to-one DM
+                if room.get("type") == 1 and token and token not in known_tokens:
+                    display_name = room.get("displayName", token)
+                    self.channels.append((f"DM:{display_name}", token, api, nc_user))
+                    known_tokens.add(token)
+                    new_count += 1
+                    logger.info(f"[Bot] Auto-discovered DM channel with '{display_name}' ({token})")
+        if new_count:
+            logger.info(f"[Bot] Added {new_count} new DM channel(s), now monitoring {len(self.channels)} total")
+
     def is_question(self, text: str) -> bool:
         """Determine if a message is a question."""
         text = text.strip().lower()
@@ -377,12 +425,14 @@ class Bot:
         text = text.lower()
         return '@marketbot' in text or '!marketbot' in text
     
-    def should_respond(self, message: str) -> bool:
+    def should_respond(self, message: str, is_dm: bool = False) -> bool:
         """
         Determine if bot should respond.
-        All segment channels are dedicated rooms — respond to all questions,
-        or to any message that explicitly mentions @marketbot.
+        In DM channels: respond to every message.
+        In segment channels: respond to questions or explicit @marketbot mentions.
         """
+        if is_dm:
+            return True
         return self.is_question(message) or self.is_mentioned(message)
     
     def extract_topic(self, question: str) -> Optional[str]:
@@ -393,9 +443,20 @@ class Bot:
             if topic_lower.replace('_', ' ') in question_lower:
                 return topic
         return None
-    
+
+    def _drain_existing_messages(self):
+        """On startup, mark all current messages as seen so the bot only responds to new ones."""
+        count = 0
+        for segment_name, token, api, _ in self.channels:
+            messages = api.get_messages(token, limit=200)
+            for msg in messages:
+                self.processed_message_ids.add(msg.id)
+                count += 1
+        logger.info(f"[Bot] Startup drain: marked {count} existing message(s) as seen across {len(self.channels)} channel(s)")
+
     def process_channel(self, token: str, segment_name: str, api: NextcloudAPI, nc_user: str):
         """Monitor and respond to messages in a segment channel."""
+        is_dm = segment_name.startswith("DM:")
         messages = api.get_messages(token)
         
         for msg in messages:
@@ -407,7 +468,7 @@ class Bot:
             if msg.actor_id == nc_user:
                 continue
             
-            if not self.should_respond(msg.message):
+            if not self.should_respond(msg.message, is_dm=is_dm):
                 logger.debug(f"[{segment_name}] Skipping: {msg.message[:50]}")
                 continue
             
@@ -435,7 +496,7 @@ class Bot:
             # Mark as processed
             self.processed_message_ids.add(msg.id)
     
-    def run(self, segments_filter: Optional[List[str]] = None, poll_interval: int = 30):
+    def run(self, segments_filter: Optional[List[str]] = None, poll_interval: int = 15):
         """
         Main bot loop.
         
@@ -456,10 +517,18 @@ class Bot:
 
         active = ', '.join(s for s, *_ in channels)
         logger.info(f"Starting bot (polling every {poll_interval}s) — segments: {active}")
-        
+
+        # Discover DM channels on startup, then mark all existing messages as seen
+        self.sync_dm_channels()
+        self._drain_existing_messages()
+
         try:
             while True:
-                for segment_name, token, api, nc_user in channels:
+                # Re-discover any new DM channels each cycle
+                self.sync_dm_channels()
+                for segment_name, token, api, nc_user in self.channels:
+                    if segments_filter and not segment_name.startswith("DM:") and segment_name not in segments_filter:
+                        continue
                     self.process_channel(token, segment_name, api, nc_user)
                 
                 time.sleep(poll_interval)
@@ -477,10 +546,24 @@ def main():
     parser.add_argument("--poll-interval", type=int, default=30,
                        help="Seconds between polls (default: 30)")
     parser.add_argument("--test-query", type=str, help="Test with a single query (no polling)")
+    parser.add_argument("--llm", choices=["ollama", "claude"], default=None,
+                       help="Override LLM provider (default: value of LLM_PROVIDER env var, currently 'ollama')")
     parser.add_argument("--verbose", action="store_true", help="Enable debug logging")
     
     args = parser.parse_args()
     
+    if args.llm:
+        global LLM_PROVIDER, llm_client
+        LLM_PROVIDER = args.llm
+        if LLM_PROVIDER == "claude":
+            if not CLAUDE_API_KEY:
+                logger.error("CLAUDE_API_KEY not set in .env — cannot use Claude")
+                sys.exit(1)
+            llm_client = Anthropic(api_key=CLAUDE_API_KEY, base_url="https://api.anthropic.com")
+        else:
+            llm_client = ollama.Client(host=OLLAMA_HOST)
+        logger.info(f"[LLM] Provider overridden to: {LLM_PROVIDER}")
+
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
     

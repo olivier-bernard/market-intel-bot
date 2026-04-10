@@ -303,7 +303,7 @@ def markdown_to_html(text):
             if not in_list:
                 result.append('<ul style="margin:8px 0;padding-left:20px;">')
                 in_list = True
-            result.append(f'<li style="margin:4px 0;">\n{item}</li>')
+            result.append(f'<li style="margin:6px 0;padding-left:4px;">{item}</li>')
         else:
             if in_list and line.strip():
                 result.append('</ul>')
@@ -344,8 +344,12 @@ def format_html_email(segment_name, summary, date_str):
         safe_content = sec_content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         # Convert markdown to HTML
         safe_content = markdown_to_html(safe_content)
-        # Convert remaining newlines to <br>
-        safe_content = safe_content.replace("\n", "<br>")
+        # Convert remaining newlines to <br>, but not inside list tags
+        parts = re.split(r'(<ul[\s\S]*?</ul>)', safe_content)
+        safe_content = ''.join(
+            part if part.startswith('<ul') else part.replace('\n', '<br>')
+            for part in parts
+        )
         cards_html += (
             f'<div style="border-left:4px solid {color};background:#f8fafc;'
             f'border-radius:0 8px 8px 0;padding:16px 18px;margin-bottom:18px;">'

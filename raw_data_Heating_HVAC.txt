@@ -468,3 +468,128 @@ ABSTRACT: The aim of this paper is to briefly recall heat transfer modes and exp
 PAPER: A Metric of Software Size as a Tool for IT Governance
 ABSTRACT: This paper proposes a new metric for software functional size, which is derived from Function Point Analysis (FPA), but overcomes some of its known defi- ciencies. The statistical results show that the new metric, Functional Elements (EF), and its submetric, Functional Elements of Transaction (EFt), have higher correlation with the effort in software development than FPA in the context of the analyzed data. The paper illustrates the application of the new metric as a tool to improve IT governance specifically in assessment, monitoring, and giving directions to the software development area.
 
+
+############################################################
+# SEGMENT: Heating_HVAC | DATE: 2026-04-10 15:57
+############################################################
+SOURCE: Grandmark Air Conditioning Pioneers “X-Ray” Diagnostic Technology to Eliminate Guesswork
+“Most contractors tell you there is a problem; we show it to you,” says a representative for Grandmark Air Conditioning. “By applying the concept of medical imaging to home infrastructure, we are removing the ‘sales’ element from the inspection and replacing it with hard data. If a system has a hidden defect, the X-ray will find it before it becomes a multi-thousand-dollar emergency.”
+
+The X-Ray Advantage:
+
+X-Ray AC: Pinpoints internal blockages and electrical heat signatures that cause system burnout.
+
+X-Ray Roof: Detects trapped moisture and structural weaknesses invisible to drones or visual checks.
+
+Preventative Savings: Identifies “stage one” failures, allowing for repairs that can extend system life by years.
+
+This diagnostic service is now available to residents seeking a higher standard of accuracy for their home’s most expensive assets. Grandmark Air Conditioning continues to lead the region in integrating advanced technology with traditional HVAC and roofing craftsmanship.
+
+SOURCE: Bill to Limit PFAS Use Re-introduced in Washington
+Many fluorinated refrigerants, including low-GWP hydrofluoroolefins (HFOs), contain PFAS or can break down into PFAS. PFAS chemicals are also found in nonstick cookware, waterproof clothing, food packaging, cosmetics, carpets, stain-resistant furniture, and many other consumer products.
+
+The Forever Chemical Regulation and Accountability Act was introduced in the Senate by Sen. Dick Durbin, D-Ill., and in the House of Representatives by Rep. Betty McCollum, D-Minn. The legislation had been introduced in April 2024 but didn’t make it out of committee during that congressional session.
+
+The bill would establish a 10-year time frame for phasing out non-essential PFAS and ending their release into the environment by manufacturers and commercial users. It would also initiate studies on the health risks of PFAS and how they can accumulate in the body, and to determine the essential uses of PFAS and provide guidance on determining which PFAS uses are essential and which are not.
+
+“Protecting our environment and Americans from toxic hazards like PFAS is a matter of public health — especially when PFAS is commonly used in household products and can be found in our water systems,” said Durbin in a press release. “With the Forever Chemical Regulation and Accountability Act, we can work toward phasing out the unnecessary uses of PFAS, protecting consumers and our environment from the hazards of these chemicals.”
+
+State PFAS restrictions, and regulatory proposals, have been on the HVACR i
+
+SOURCE: High HVAC Prices Are Inviting New Competition
+Those are serious allegations. And to be clear, they remain allegations. Courts draw a sharp line between legal “conscious parallelism” and illegal coordination. Regardless of how the case plays out, the lawsuit is tapping into something contractors already know: equipment got expensive, fast — and prices haven’t come back down.
+
+Manufacturers have offered real explanations for rising costs, including supply chain disruptions, commodity inflation, new SEER2 and DOE regulations, as well as the AIM Act and A2L transition. These are all valid reasons, but the lawsuit argues that those factors don’t fully explain the scale of price increases. Either way, contractors are dealing with the consequences: higher quotes and more homeowners choosing to repair instead of replace.
+
+But things are starting to get interesting. As demand for residential equipment has softened and prices remain high, new competitors are stepping in with a different approach — not just improving equipment, but rethinking the entire cost structure.
+
+Take Merino Energy, a startup that introduced the Mono system — a through-the-wall heat pump that plugs into a standard outlet and installs in about an hour. The company is advertising a flat price of around $3,800 installed — a fraction of most traditional ducted systems. What’s even more interesting is where Merino came from. Its founders are alumni of two other startups — Quilt and Gradient — that are also working to fundamentally rethink how HVAC systems are des
+
+SOURCE: Get Safe Online launches online safety campaign
+Get Safe Online has launched an online safety campaign for the plumbing trade.
+
+The company stated that many small businesses will be required to use HMRC’s Making Tax Digital from April 6 and has encouraged plumbers to reflect on their online habits. According to Get Safe Online, companies in the plumbing and heating sector are being heavily targeted by fraudsters.
+
+Tony Neate, CEO at Get Safe Online, said: “Earning money and keeping your customers happy is often done at the expense of everyday jobs essential to every business, like admin and finances. And keeping yourself safe from fraud is no exception.
+
+“As you transfer to Making Tax Digital, why not take the opportunity to learn tips and advice on staying safe online too? We have a wealth of expert, easy-to-follow advice at getsafeonline.org”
+
+Typical online threats facing those in the plumbing trade include purchase fraud, payment diversion fraud, impersonation fraud, investment fraud and ransomware.
+
+Get Safe Online has shared some tips for staying safe online.
+
+The company recommended that plumbers should always pay by credit card, never by bank transfer, when making one-off online purchases of supplies, sundries or tools online. It also suggested seeing the goods in person. Get Safe Online said that thinking about the advertisement is also important. It is helpful to think about whether it seems genuine, if anything seems ‘not quite right’ and if it is easy to contact the seller to ask questions.
+
+If users receive an
+
+SOURCE: Lawton Tubes employee wins at World Bowls Championships
+Nathan Caine, a warehouse operations team leader at Lawton Tubes’ Torrington Avenue base, helped England to silverware at this year’s World Bowls Championships in Norway.
+
+According to a statement, Nathan and his bowls partner competed against 11 other countries to be crowned the best in the world.
+
+Nathan noted that his day job had a huge influence on his bowls success.
+
+He said: “Bowls is a very tactical sport where you’re always thinking about how your next move will play out and the knock-on effect it could have, so you’re always thinking one step ahead.
+
+“The same approach applies at work, where I am leading a team of five people who are picking and packing a wide range of made-to-order copper tubes and fittings as efficiently as possible for our customers.
+
+“Ultimately it’s all about teamwork and communicating with each other, and fact that I am practicing and honing these skills on a daily basis in the warehouse has definitely helped me sharpen up my bowls.
+
+“Lawton Tubes have also been great in working around my bowls schedule. I have been able to switch to a Monday to Friday daytime role so that I can pursue meeting up with my local team mid-week and England during some weekends, whilst still being able to spend time with my family.
+
+“It’s been a memorable year on the bowls front, and my first thought after winning in Norway was ‘now we have to retain the title’.”
+
+Jon Brealey, operations manager at Lawton Tubes in Coventry, added: “Nathan has developed into a great 
+
+SOURCE: Drayton launches Golden Ticket giveaway
+Drayton has hidden 10 ‘Golden Tickets’ inside selected boxes of its two-port Motorised Valve product, as part of its ongoing Great Greggs Giveaway.
+
+Anyone who discovers a Golden Ticket inside a qualifying Motorised Valve box will be able to claim £50 worth of Greggs vouchers.
+
+To claim the prize, finders need to take a selfie of themselves holding their ticket and tagging Drayton on one of their social media channels. The company’s social media handles include @draytonheating on Instagram, Drayton Heating on Facebook and @DraytonHeating on TikTok.
+
+The promotion runs until 30 April 2026, with a total prize fund of up to £26,000 available.
+
+Nick Hunt, UK sales and marketing director at Drayton, said: “Installers work very hard and often have to grab lunch on the go, so we wanted to create something fun that also gives something back to the trade. Our Motorised Valve range is incredibly popular amongst heating engineers and the Golden Tickets add an extra layer of excitement to the Great Greggs Giveaway; you never know when opening a box might turn into a £50 treat!”
+
+SOURCE: ADM21 et CONPROSYS offrent un contrôle ultra-rapide avec le nouveau coupleur E/S distantes
+Contec fournit des cartes d’acquisition, des cartes de mesure, des cartes d’extension et des cartes de contrôle conformes à une large variété de capteurs et d’équipements de terrain depuis plus de 30 ans. Les technologies avancées et le savoir-faire éprouvé de Contec répondent aux défis de ses clients par la mise en place de systèmes M2M/IoT faciles à utiliser, qui proposent des services cloud et périphériques simples et pratiques.
+
+Le nouveau coupleur de communication E/S CPSN-EOB471EC-41 offre un contrôle ultra-rapide avec un temps de cycle minimal de 125 µs, prenant en charge 32 entrées et 32 sorties numériques. Il permet de combiner jusqu’à 8 modules d’E/S nano CONPROSYS pour un système d’E/S déportées flexible. Sa large plage de températures de fonctionnement, de -20 à 60 °C, garantit des performances fiables même dans des environnements difficiles.
+
+Doté d’unité centrale compatible avec le protocole EtherCAT et de 4 (ou 8) emplacements d’extension il aide à créer des configurations flexibles de sous-périphériques EtherCAT en combinant des modules d’E/S de la série CONPROSYS nano, afin de répondre à tous les besoins fonctionnels. Il peut être utilisé dans des applications telles que les équipements de fabrication de semi-conducteurs et d’écrans plats, les machines, les bancs de test, les systèmes de convoyage, etc.
+
+Caractéristiques
+
+· Extension de 4 modules d’E/S pour série CONPROSYS nano
+
+· Installation et retrait faciles des modules d’E/S déportées modulaires
+
+· Compa
+
+SOURCE: Régulation et Gestion Technique des Bâtiments : une croissance portée par les standards de marché
+En 2025, la croissance du marché repose principalement sur l’installation de solution BACS standards en rénovation, avec une dynamique plus forte dans le tertiaire, et une priorité donnée à la régulation des systèmes CVC. L’attractivité de ce marché continue à attirer de nouveaux acteurs qui adaptent progressivement leurs offres aux référentiels de marché porté par l’ACR et l’ALLIANCE BACS. Cette dynamique doit se poursuivre dans les années à venir permettant l’installation massive de BACS de plus en plus performants.
+
+Les évolutions du marché en 2025
+
+Malgré un contexte économique difficile pour le secteur du bâtiment, le marché des BACS connaît à nouveau une croissance en 2025, avec une certaine homogénéité dans les tendances par type de marché.
+
+Cela relève un pragmatisme des investisseurs qui cherchent avant tout à s’équiper de BACS standards permettant de gagner en confort et en efficacité énergétique avec un retour rapide sur investissement.
+
+Dans le secteur tertiaire, la dynamique reste importante à 5%. Les objectifs réglementaires en vigueur dans ce domaine (Décrets BACS I&II et Dispositif Eco-énergie Tertiaire) offrent une lisibilité claire qui permet de programmer les bouquets de travaux progressivement en s’appuyant en premier lieu sur les actions à gains rapides que sont l’installation de BACS standards. Pour une grande partie des bâtiments déjà assujettis au décret BACS, c’est le remplacement des systèmes BACS existants par des systèmes de nouvelles générations q
+
+SOURCE: J3e partenaire de la 16e édition du salon de la performance des bâtiments tertiaires, industriels et collectifs – Build and renovate for a smart future
+Depuis 2010, Intelligent Building Systems (IBS) s’impose comme le rendez-vous incontournable des acteurs de la GTB et de l’automatisme des bâtiments.
+
+L’événement met en lumière les enjeux clés du marché : connectivité des bâtiments, gestion technique et automatisation, pilotage intelligent, interopérabilité des systèmes, cybersécurité et intelligence artificielle…
+
+Grâce à un format unique combinant salon professionnel et conférences thématiques, IBS réunit chaque année les acteurs majeurs du bâtiment et l’urbanisme intelligent.
+
+Prochaine édition les 14 et 15 octobre 2026 à Paris Expo Porte de Versailles. En synergie avec les salons Intelligent Lighting Systems, InnoCity et WaterTech.
+
+PAPER: Heat transfer in buildings : application to air solar heating and Trombe wall design
+ABSTRACT: The aim of this paper is to briefly recall heat transfer modes and explain their integration within a software dedicated to building simulation (CODYRUN). Detailed elements of the validation of this software are presented and two applications are finally discussed. One concerns the modeling of a flat plate air collector and the second focuses on the modeling of Trombe solar walls. In each case, detailed modeling of heat transfer allows precise understanding of thermal and energetic behavior of the studied structures. Recent decades have seen a proliferation of tools for building thermal simulation. These applications cover a wide spectrum from very simplified steady state models to dynamic simulation ones, including computational fluid dynamics modules (Clarke, 2001). These tools are widely available in design offices and engineering firms. They are often used for the design of HVAC systems and still subject to detailed research, particularly with respect to the integration of new fields (specific insulation materials, lighting, pollutants transport, etc.). Available from: http://www.intechopen.com/books/evaporation-condensation-and-heat-transfer/heat-transfer-in-buildings-application-to-solar-air-collector-and-trombe-wall-design
+
+PAPER: A Metric of Software Size as a Tool for IT Governance
+ABSTRACT: This paper proposes a new metric for software functional size, which is derived from Function Point Analysis (FPA), but overcomes some of its known defi- ciencies. The statistical results show that the new metric, Functional Elements (EF), and its submetric, Functional Elements of Transaction (EFt), have higher correlation with the effort in software development than FPA in the context of the analyzed data. The paper illustrates the application of the new metric as a tool to improve IT governance specifically in assessment, monitoring, and giving directions to the software development area.
+

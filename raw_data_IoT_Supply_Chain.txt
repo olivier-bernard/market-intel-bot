@@ -823,3 +823,653 @@ PAPER: Security for the Industrial IoT: The Case for Information-Centric Network
 ABSTRACT: Industrial production plants traditionally include sensors for monitoring or documenting processes, and actuators for enabling corrective actions in cases of misconfigurations, failures, or dangerous events. With the advent of the IoT, embedded controllers link these `things' to local networks that often are of low power wireless kind, and are interconnected via gateways to some cloud from the global Internet. Inter-networked sensors and actuators in the industrial IoT form a critical subsystem while frequently operating under harsh conditions. It is currently under debate how to approach inter-networking of critical industrial components in a safe and secure manner.
   In this paper, we analyze the potentials of ICN for providing a secure and robust networking solution for constrained controllers in industrial safety systems. We showcase hazardous gas sensing in widespread industrial environments, such as refineries, and compare with IP-based approaches such as CoAP and MQTT. Our findings indicate that the content-centric security model, as well as enhanced DoS resistance are important arguments for deploying Information Centric Networking in a safety-critical industrial IoT. Evaluation of the crypto efforts on the RIOT operating system for content security reveal its feasibility for common deployment scenarios.
 
+
+############################################################
+# SEGMENT: IoT_Supply_Chain | DATE: 2026-04-10 14:40
+############################################################
+SOURCE: Shipping Remains Severely Constrained in Hormuz
+Despite a two-week U.S.-Iran ceasefire agreed on April 7 that included a guarantee of "safe passage" through the narrow Strait of Hormuz, only a handful of vessels are making it through the critical entrance to the Persian Gulf, reports BBC News.
+
+Earlier this week, after the ceasefire was jeopardized by Israel’s continued missile attacks on Lebanon, ship operators were told by the Iranian regime that they would be "targeted and destroyed" if they attempted to cross the strait without permission.
+
+On April 9, Sultan Al Jaber, the chief executive officer of the Abu Dhabi National Oil Company (Adnoc), said the passage was “not open,” and was subject to “permission, conditions and political leverage” by Iran, according to the Guardian.
+
+U.S. Vice President JD Vance is heading to Pakistan to begin negotiations about Iran beginning Saturday, as President Donald Trump continued to demand the Iranians reopen the strait, and cease charging vessels fees for passage through what are designated international waters.
+
+According to the BBC, data from MarineTraffic shows that, by 10:00 BST (5:00 EDT) on April 10, only 15 ships had been tracked passing through the strait since the ceasefire. Of these, four were tankers carrying either oil, gas or chemicals. The rest are listed as bulk carriers or container ships of various types.
+
+That compares with the pre-war average of 138 ships passing through the strait each day.
+
+The mechanism by which ship operators get permission from Iran to transi
+
+SOURCE: How Invoice Factoring Is Strengthening the Freight Market
+For years, many brokers viewed invoice factoring companies as the annoying middleman, an extra layer between them and the carrier. Some even tried to eliminate factors altogether by offering quick pay programs, assuming cash speed was the only value factoring companies provided.
+
+But over time, something became clear: factoring companies — purchasing outstanding invoices in exchange for immediate cash — were doing work that brokers simply couldn’t replicate at scale. They were standardizing invoices across tens of thousands of carriers. They were quality-checking paperwork before it ever hit a broker’s desk. They were vetting carriers and loads every day. And they were absorbing the billing and collections burden that brokers never truly wanted in the first place. Rather than a last-resort, “quick cash” option factoring is a shared infrastructure that strengthens the entire freight ecosystem.
+
+To understand factoring’s evolution, start with the carrier lens. There are roughly 300,000 authorized commercial trucking companies in the U.S., and about 90% operate five trucks or fewer. These are not large fleets with dedicated accounting departments and in-house collections teams. In many cases, one or two people handle compliance, maintenance, dispatch, driver pay, and somehow billing and collections on top of that.
+
+Meanwhile, payment cycles can stretch 30, 45 or even 60 days. Carriers face insurance increases, higher maintenance costs, and razor-thin margins, and waiting on paym
+
+SOURCE: USPS Asks to Raise Stamp Price to 82 Cents to Ease Cash Crisis
+The United States Postal Service proposed raising the price of a first-class stamp by 4 cents to 82 cents, the agency said on April 9 as seeks to improve its dire financial situation.
+
+The proposed 4.8% price hike will be reviewed by the Postal Regulatory Commission, an oversight body, and if approved, would go into effect July 12. It would be the eighth stamp price hike since 2021, an increase of about 34% over that time, according to the PRC.
+
+The proposal comes soon after the agency said it plans to implement later this month an 8% price increase on package shipping to offset rising transportation costs.
+
+The recent price increases on mail and shipping reflect the postal service’s efforts to get out of a long-term and increasingly urgent financial crisis brought on by declining mail volumes, exorbitant operating costs and burdensome pension requirements. Postmaster General David Steiner has said that the agency is at risk of running out of cash as early as next year.
+
+Earlier on April 9, the PRC passed a separate waiver that would lift certain pension funding requirements for the agency, potentially freeing up to $15 billion through 2030 to provide the postal service “some breathing room and flexibility to repurpose revenues that it would have used for retiree benefits to execute its contingency plans to avoid running out of cash,” the PRC said in a statement.
+
+SOURCE: What CEOs talked about in Q1 2026: Iran war, physical/agentic AI, OpenClaw, and the SaaSpocalypse
+In short
+
+According to IoT Analytics’ latest What CEOs Talked About report, AI maintained the top spot in CEOs’ minds in Q1 2026, with discussions around physical and agentic AI increasing.
+
+The onset of armed conflict in the Middle East made discussions about Iran rise steeply.
+
+Talk about OpenClaw and SaaSpocalypse, too, had sharp increases.
+
+Discussions around AI bubble concerns, uncertainty, and tariffs declined.
+
+Why it matters
+
+The prioritization of specific topics by CEOs may influence investment in these areas.
+
+In this article
+
+The big picture
+
+Key rising themes in Q1 2026
+
+1. Iran
+
+2. Physical and agentic AI
+
+3. OpenClaw
+
+4. SaaSpocalypse
+
+Declining themes in Q1 2026
+
+1. Tariffs and uncertainty
+
+2. AI bubble
+
+What it means for CEOs
+
+Further analysis
+
+CEO digital agenda by sector (Insights+)
+
+How CEOs discuss AI (Insights+)
+
+Manufacturing challenges in Q1 2026 (Insights+)
+
+The big picture
+
+Iran
+
+Iran conflict lifted oil prices and call mentions. In Q1 2026, many CEOs had what was (and still is) on the minds of many around the world: armed conflict between the US/Israel and Iran. While Iran was not the most-discussed topic on earnings calls, it experienced the largest quarter-over-quarter (QoQ) jump, up 550% to 3.3% of earnings calls. Coinciding with this, discussions about the Middle East rose 47% QoQ to 14% of earnings calls, and geopolitics appeared in 17.5% (up 53.8% QoQ).
+
+Most notable to IoT Analytics is that this conflict has showcased a new type of warfare: Da
+
+SOURCE: The top 10 smart manufacturing technology vendors
+In short
+
+The global smart manufacturing market reached $175 billion in 2025, according to IoT Analytics’ Industry 4.0 & Smart Manufacturing Market Report 2026–2030 (published March 2026).
+
+IoT Analytics projects the market to grow at a CAGR of 9.3% until 2030, reaching $274 billion.
+
+In 2026, the top 10 smart manufacturing technology vendors are prioritizing software-defined, AI-infused architectures, but their approaches differ.
+
+In this article
+
+Smart manufacturing market snapshot and outlook
+
+Comparing the top 10 smart manufacturing vendors
+
+Deep dive: The top 10 vendors
+
+Further analysis
+
+Global smart manufacturing market by segment and technology (Insights+)
+
+Growth vs maturity of smart manufacturing technologies (Insights+)
+
+Top 20 smart manufacturing vendors (Insights+)
+
+Key segments for the top 20 smart manufacturing vendors (Insights+)
+
+3 key action items from this report for strategists, product managers, marketers, and salespeople (Insights+)
+
+Smart manufacturing market snapshot and outlook
+
+Industrial AI is reviving the smart manufacturing technology market. Early evidence suggests that industrial AI is beginning to re-energize the smart manufacturing market, with data management/platform, AI platform, and AI-related investments such as mobile robotics increasingly driving market growth, according to IoT Analytics’ 406-page Industry 4.0 & Smart Manufacturing Market Report 2026–2030 (published March 2026). The global smart manufacturing market (hardware, software,
+
+SOURCE: 7 lessons manufacturers can learn from automakers in the era of software-defined everything
+In short
+
+A software-defined-everything revolution is currently changing hardware technology architectures.
+
+Automotive OEMs are leading this revolution with 80%+ of carmakers actively building software-defined vehicle architectures.
+
+Manufacturers and industrial automation companies are further behind in adopting software-defined architectures and can take 7 lessons from the automotive SDV playbook.
+
+In this article
+
+Hardware is getting software-defined, and automakers are leading the charge
+
+7 lessons manufacturers can learn from SDVs
+
+Lesson 1: Consolidate computing across the stack
+
+Lesson 2: The edge platform layer becomes very important
+
+Lesson 3: Decouple the software lifecycle from the hardware lifecycle
+
+Lesson 4: DevOps and toolchains bring “software-defined” to life
+
+Lesson 5: OTA is a game-changer
+
+Lesson 6: End-to-end security and compliance become its own discipline
+
+Lesson 7: AI impact is only seen once the software-defined foundation exists
+
+Analyst takeaway: What automation decision-makers should borrow, adapt, and avoid
+
+3 software trends observed at SPS 2025 (Insights+ exclusive)
+
+Comparison of tech-native and traditional OEMS regarding SDV adoption (Insights+ exclusive)
+
+Hardware is getting software-defined, and automakers are leading the charge
+
+Entering the software-defined everything (SDE) era. Hardware is undergoing an architectural revolution toward software-defined systems. As products become more connected, feature-rich, and update-driven, building,
+
+SOURCE: Semtech Partners with Digital Barriers to Launch AI-Powered Video Compression
+Semtech recently announced a partnership with Digital Barriers to deliver a fully integrated device-to-cloud cellular video solution, Semtech Video Compression that is purpose-built for critical video surveillance and analytics.
+
+In a separate announcement, Semtech’s LoRa technology will continue to serve as the core radio modulation for Amazon Sidewalk across all markets in this year’s Sidewalk international expansion. Semtech is a provider of high-performance semiconductor, Internet of Things (IoT) systems and cloud connectivity service solutions.
+
+For their turnkey solution with Digital Barriers, the partnerships involved integrating EdgeVis AI-powered video compression into Semtech’s AirLink XR60 5G router, paired with the company’s multi-carrier global Smart Connectivity services. It enables applications requiring live video transmission over cellular networks— including remote security surveillance, traffic monitoring and critical infrastructure monitoring— transforming how organizations manage operations in remote and challenging environments.
+
+Semtech’s Rupa Datta Comments
+
+Rupa Datta, vice president of connected services at Semtech, said the Digital Barriers deal represents a significant expansion of Semtech’s connectivity value proposition.
+
+“By integrating AI-powered video compression into our Connected Services offerings, we’re not just enabling customers to manage bandwidth costs—we’re enabling critical use cases for video streaming applications that weren’t econ
+
+SOURCE: How Texas Children’s Saved $14M with Zebra RFID Solutions: RFID Journal Case Study
+As hospitals in the U.S. become larger and have to serve more patients, ensuring that inventory counts for medicines to are up to date and accurate has become a priority.
+
+This was an issue that Texas Children’s Hospital was having as its pharmacy was struggling with a lack of real-time inventory visibility, leading to several critical issues. An annual inventory review revealed $40 million in medications that could not be properly tracked, representing 8-10% of their drug budget.
+
+As a result, pharmacy technicians spent hours manually counting items and reconciling reports, which often had discrepancies. And ordering was based on “gut feeling,” resulting in overstocking, expired medications, and supply gaps.
+
+Texas Children’s Hospital
+
+Texas Children’s Hospital is a not-for-profit healthcare organization with a mission to create a healthier future for children and women globally through leadership in patient care, education, and research.
+
+As one of the nation’s largest and most comprehensive pediatric and women’s health care organizations that consistently ranked among the top children’s hospitals in the United States by U.S. News & World Report, it manages nearly 4.9 million patient encounters annually and is the primary pediatric training site for Baylor College of Medicine.
+
+RFID Hardware
+
+To solve their pharmaceutical inventory issue, they worked in collaboration with Zebra Technologies and Tecsys to co-engineer an RFID-powered solution. Zebra is a global leader in digi
+
+SOURCE: Protecting Patients from Counterfeit Pharmaceuticals with RAIN RFID
+Glucagon-Like Peptide-1 (GLP-1) receptor agonists are a class of medicines that are utilized to support the treatment of diabetes and, increasingly, weight loss and other similar medical needs.
+
+Licensed versions of these medicines are sold under brand names including Wegovy, Ozempic and Mounjaro, each of which has undergone rigid scrutiny by official regulators to ensure that they are safe for use.
+
+However, as these therapies have become increasingly popular, counterfeit versions have begun to infiltrate the supply chain – many of which are unregulated, untested and unsafe. In 2025, the United Kingdom’s dedicated regulator, the Medicines and Healthcare products Regulatory Agency (MRHA), carried out the world’s largest seizure of unlicensed weight-loss medicines, uncovering a factory making injection pens that were labelled as containing the key ingredient in Mounjaro. The World Health Organization (WHO) estimates that the counterfeit drug market is worth up to $400 billion a year.
+
+Battling Counterfeit Drugs
+
+The risk of counterfeit drugs entering the marketplace is off the charts. This poses a clear and present danger to the health of patients – with potentially life-threatening implications. There is also the threat of reputational damage for the brands producing authentic medication if someone has an adverse reaction to a counterfeit version, as well as for pharmacists that may unknowingly distribute counterfeit medicines if they accidentally enter the supply chain.
+
+A t
+
+SOURCE: Fuel surcharges give rates to US a boost – with more to come
+Mediterranean regional feeder networks feeling the strain again
+
+The east-west Mediterranean container feeder network is again coming under acute stress from the geopolitical ...
+
+Spot rates shrug off Iran shock as carriers chase volume over profits
+
+Container spot freight rates on the main east-west trades largely flatlined this week as excess ...
+
+Forwarders warn war-risk surcharges could set dangerous precedent
+
+Unregulated carrier surcharging practices prompted by the US/Israel war against Iran could have precedent-setting effects, ...
+
+Japan-N Europe service start reinforces CMA CGM standalone aim
+
+CMA CGM kicked off its standalone weekly Japan-North Europe service today with the arrival of ...
+
+Air cargo fuel surcharges diverge sharply as oil price surges
+
+Cargo fuel surcharges jumped sharply in late March as jet fuel prices spiked – but not ...
+
+The Loadstar Snapshot, Episode 2: Who pays the $2bn shipping bill?
+
+This week on The Loadstar Snapshot, we examine the financial fallout of the Middle East ...
+
+Phantom GRIs expose Transpacific versus Asia-Europe divide
+
+A growing divergence between quoted and paid freight rates is exposing what Sea-Intelligence has termed “Phantom ...
+
+Mærsk announces $140 inland fuel surcharge in the US
+
+Mærsk noted today that the conflict in the Middle East has had a “considerable impact ...
+
+Surging fuel costs lift spots... for now
+
+The fallout from the US-Israel-Iran conflict is now beginning to bleed into the main container ...
+
+SOURCE: Container derivative trade debuts in New York – a ‘natural evolution’
+Orders for car-carriers plummet as shipbuilding market dynamics shift
+
+Orders for new pure car and truck carriers (PCTCs) have plunged this year, with just ...
+
+Low-cost car exports driving market share growth for China
+
+Chinese car exports have beaten challenges from tariffs imposed by the US and EU and ...
+
+'Volatile few years' for shipping could prompt new contracting approach
+
+Stakeholders looking to hedge cost-associated risks in anticipation of heightened market volatility could consider a ...
+
+Containership charter market feels the ripples from trade tensions
+
+The charter market for containerships is diverging in response to the many pressures on supply ...
+
+Asia-US box traffic hits an all-time high, boosted by retail front-loading
+
+Containerised exports from 18 Asian countries to the US hit an all-time high of 21.45m ...
+
+Container teu-mile growth could go into reverse if Red Sea transits resume
+
+Ocean container teu-mile trade grew 18% year on year in 2024, to 1,171 teu per ...
+
+U-turn for ocean rates in car-carrier charter market as exports level off
+
+The car-carrier market is now at a crossroads, as charter rates have corrected substantially from ...
+
+The Red Sea crisis and its impact on containership deployment
+
+The impact of the Red Sea crisis on containership deployment trends – after a wave ...
+
+Capacity squeeze will ease as more newbuilds arrive, says Xeneta
+
+Additional tonnage being introduced to the ocean shipping market next year presents “an opportunity for
+
+SOURCE: Russian plan to ban foreign carriers may be ‘symbolic’ gesture
+Carriers wait as ceasefire becomes 'test window' for Hormuz reopening
+
+Ceasefire agreed or not, the next five days will prove pivotal to the medium-term future ...
+
+Russia’s 'carrier ban': Signal, noise...or something more calculated?
+
+Redefining who is allowed to control logistics flows
+
+Kremlin plotting ban on major box carriers entering Russian ports
+
+Ukrainian intelligence has released a report claiming that the Kremlin is set to pass a ...
+
+Air freight rates surge ahead of ceasefire, while fuel fears cloud outlook
+
+A two-week ceasefire in the Middle East has raised hopes of easing pressure on global ...
+
+Box ship hit by missile after first CMA CGM vessel escapes Hormuz
+
+CMA CGM may have found a way around the madness in the Middle East, but ...
+
+SeaLead cuts back as Iran conflict and US charges hit operations
+
+The US-Iran conflict has severely curtailed SeaLead Shipping’s operations. The closure of the Strait of Hormuz ...
+
+Forwarders warn war-risk surcharges could set dangerous precedent
+
+Unregulated carrier surcharging practices prompted by the US/Israel war against Iran could have precedent-setting effects, ...
+
+RailFreight: SNCF and CMA CGM CEOs meet to discuss Rail Logistics Europe sale
+
+RailFreight.com reports: Rail Logistics Europe (RLE), which groups the rail freight subsidiaries of the SNCF Group, ...
+
+EXCLUSIVE: More pain at Ceva is MSC's delight? Two other top execs out – sources
+
+To be updated, on merit
+
+PAPER: Impact of the Temperature and Humidity Variations on Link Quality of xm1000 Mote Sensors
+ABSTRACT: The core motivations of deploying a sensor network for a specific application come from the autonomy of sensors, their reduced size, and their capabilities for computing and communicating in a short range. However, many challenges for sensor networks still exist: minimizing energy consumption, and ensuring the performance of communication that may be affected by many parameters. The work described in this paper covers mainly the analysis of the impact of the temperature and humidity variations on link quality of XM1000 operating under TinyOS. Two-way ANOVA test has been applied and the obtained results show that both the temperature and humidity variations impact RSSI.
+
+PAPER: Security for the Industrial IoT: The Case for Information-Centric Networking
+ABSTRACT: Industrial production plants traditionally include sensors for monitoring or documenting processes, and actuators for enabling corrective actions in cases of misconfigurations, failures, or dangerous events. With the advent of the IoT, embedded controllers link these `things' to local networks that often are of low power wireless kind, and are interconnected via gateways to some cloud from the global Internet. Inter-networked sensors and actuators in the industrial IoT form a critical subsystem while frequently operating under harsh conditions. It is currently under debate how to approach inter-networking of critical industrial components in a safe and secure manner.
+  In this paper, we analyze the potentials of ICN for providing a secure and robust networking solution for constrained controllers in industrial safety systems. We showcase hazardous gas sensing in widespread industrial environments, such as refineries, and compare with IP-based approaches such as CoAP and MQTT. Our findings indicate that the content-centric security model, as well as enhanced DoS resistance are important arguments for deploying Information Centric Networking in a safety-critical industrial IoT. Evaluation of the crypto efforts on the RIOT operating system for content security reveal its feasibility for common deployment scenarios.
+
+
+############################################################
+# SEGMENT: IoT_Supply_Chain | DATE: 2026-04-10 15:54
+############################################################
+SOURCE: Shipping Remains Severely Constrained in Hormuz
+Despite a two-week U.S.-Iran ceasefire agreed on April 7 that included a guarantee of "safe passage" through the narrow Strait of Hormuz, only a handful of vessels are making it through the critical entrance to the Persian Gulf, reports BBC News.
+
+Earlier this week, after the ceasefire was jeopardized by Israel’s continued missile attacks on Lebanon, ship operators were told by the Iranian regime that they would be "targeted and destroyed" if they attempted to cross the strait without permission.
+
+On April 9, Sultan Al Jaber, the chief executive officer of the Abu Dhabi National Oil Company (Adnoc), said the passage was “not open,” and was subject to “permission, conditions and political leverage” by Iran, according to the Guardian.
+
+U.S. Vice President JD Vance is heading to Pakistan to begin negotiations about Iran beginning Saturday, as President Donald Trump continued to demand the Iranians reopen the strait, and cease charging vessels fees for passage through what are designated international waters.
+
+According to the BBC, data from MarineTraffic shows that, by 10:00 BST (5:00 EDT) on April 10, only 15 ships had been tracked passing through the strait since the ceasefire. Of these, four were tankers carrying either oil, gas or chemicals. The rest are listed as bulk carriers or container ships of various types.
+
+That compares with the pre-war average of 138 ships passing through the strait each day.
+
+The mechanism by which ship operators get permission from Iran to transi
+
+SOURCE: How Invoice Factoring Is Strengthening the Freight Market
+For years, many brokers viewed invoice factoring companies as the annoying middleman, an extra layer between them and the carrier. Some even tried to eliminate factors altogether by offering quick pay programs, assuming cash speed was the only value factoring companies provided.
+
+But over time, something became clear: factoring companies — purchasing outstanding invoices in exchange for immediate cash — were doing work that brokers simply couldn’t replicate at scale. They were standardizing invoices across tens of thousands of carriers. They were quality-checking paperwork before it ever hit a broker’s desk. They were vetting carriers and loads every day. And they were absorbing the billing and collections burden that brokers never truly wanted in the first place. Rather than a last-resort, “quick cash” option factoring is a shared infrastructure that strengthens the entire freight ecosystem.
+
+To understand factoring’s evolution, start with the carrier lens. There are roughly 300,000 authorized commercial trucking companies in the U.S., and about 90% operate five trucks or fewer. These are not large fleets with dedicated accounting departments and in-house collections teams. In many cases, one or two people handle compliance, maintenance, dispatch, driver pay, and somehow billing and collections on top of that.
+
+Meanwhile, payment cycles can stretch 30, 45 or even 60 days. Carriers face insurance increases, higher maintenance costs, and razor-thin margins, and waiting on paym
+
+SOURCE: USPS Asks to Raise Stamp Price to 82 Cents to Ease Cash Crisis
+The United States Postal Service proposed raising the price of a first-class stamp by 4 cents to 82 cents, the agency said on April 9 as seeks to improve its dire financial situation.
+
+The proposed 4.8% price hike will be reviewed by the Postal Regulatory Commission, an oversight body, and if approved, would go into effect July 12. It would be the eighth stamp price hike since 2021, an increase of about 34% over that time, according to the PRC.
+
+The proposal comes soon after the agency said it plans to implement later this month an 8% price increase on package shipping to offset rising transportation costs.
+
+The recent price increases on mail and shipping reflect the postal service’s efforts to get out of a long-term and increasingly urgent financial crisis brought on by declining mail volumes, exorbitant operating costs and burdensome pension requirements. Postmaster General David Steiner has said that the agency is at risk of running out of cash as early as next year.
+
+Earlier on April 9, the PRC passed a separate waiver that would lift certain pension funding requirements for the agency, potentially freeing up to $15 billion through 2030 to provide the postal service “some breathing room and flexibility to repurpose revenues that it would have used for retiree benefits to execute its contingency plans to avoid running out of cash,” the PRC said in a statement.
+
+SOURCE: What CEOs talked about in Q1 2026: Iran war, physical/agentic AI, OpenClaw, and the SaaSpocalypse
+In short
+
+According to IoT Analytics’ latest What CEOs Talked About report, AI maintained the top spot in CEOs’ minds in Q1 2026, with discussions around physical and agentic AI increasing.
+
+The onset of armed conflict in the Middle East made discussions about Iran rise steeply.
+
+Talk about OpenClaw and SaaSpocalypse, too, had sharp increases.
+
+Discussions around AI bubble concerns, uncertainty, and tariffs declined.
+
+Why it matters
+
+The prioritization of specific topics by CEOs may influence investment in these areas.
+
+In this article
+
+The big picture
+
+Key rising themes in Q1 2026
+
+1. Iran
+
+2. Physical and agentic AI
+
+3. OpenClaw
+
+4. SaaSpocalypse
+
+Declining themes in Q1 2026
+
+1. Tariffs and uncertainty
+
+2. AI bubble
+
+What it means for CEOs
+
+Further analysis
+
+CEO digital agenda by sector (Insights+)
+
+How CEOs discuss AI (Insights+)
+
+Manufacturing challenges in Q1 2026 (Insights+)
+
+The big picture
+
+Iran
+
+Iran conflict lifted oil prices and call mentions. In Q1 2026, many CEOs had what was (and still is) on the minds of many around the world: armed conflict between the US/Israel and Iran. While Iran was not the most-discussed topic on earnings calls, it experienced the largest quarter-over-quarter (QoQ) jump, up 550% to 3.3% of earnings calls. Coinciding with this, discussions about the Middle East rose 47% QoQ to 14% of earnings calls, and geopolitics appeared in 17.5% (up 53.8% QoQ).
+
+Most notable to IoT Analytics is that this conflict has showcased a new type of warfare: Da
+
+SOURCE: The top 10 smart manufacturing technology vendors
+In short
+
+The global smart manufacturing market reached $175 billion in 2025, according to IoT Analytics’ Industry 4.0 & Smart Manufacturing Market Report 2026–2030 (published March 2026).
+
+IoT Analytics projects the market to grow at a CAGR of 9.3% until 2030, reaching $274 billion.
+
+In 2026, the top 10 smart manufacturing technology vendors are prioritizing software-defined, AI-infused architectures, but their approaches differ.
+
+In this article
+
+Smart manufacturing market snapshot and outlook
+
+Comparing the top 10 smart manufacturing vendors
+
+Deep dive: The top 10 vendors
+
+Further analysis
+
+Global smart manufacturing market by segment and technology (Insights+)
+
+Growth vs maturity of smart manufacturing technologies (Insights+)
+
+Top 20 smart manufacturing vendors (Insights+)
+
+Key segments for the top 20 smart manufacturing vendors (Insights+)
+
+3 key action items from this report for strategists, product managers, marketers, and salespeople (Insights+)
+
+Smart manufacturing market snapshot and outlook
+
+Industrial AI is reviving the smart manufacturing technology market. Early evidence suggests that industrial AI is beginning to re-energize the smart manufacturing market, with data management/platform, AI platform, and AI-related investments such as mobile robotics increasingly driving market growth, according to IoT Analytics’ 406-page Industry 4.0 & Smart Manufacturing Market Report 2026–2030 (published March 2026). The global smart manufacturing market (hardware, software,
+
+SOURCE: 7 lessons manufacturers can learn from automakers in the era of software-defined everything
+In short
+
+A software-defined-everything revolution is currently changing hardware technology architectures.
+
+Automotive OEMs are leading this revolution with 80%+ of carmakers actively building software-defined vehicle architectures.
+
+Manufacturers and industrial automation companies are further behind in adopting software-defined architectures and can take 7 lessons from the automotive SDV playbook.
+
+In this article
+
+Hardware is getting software-defined, and automakers are leading the charge
+
+7 lessons manufacturers can learn from SDVs
+
+Lesson 1: Consolidate computing across the stack
+
+Lesson 2: The edge platform layer becomes very important
+
+Lesson 3: Decouple the software lifecycle from the hardware lifecycle
+
+Lesson 4: DevOps and toolchains bring “software-defined” to life
+
+Lesson 5: OTA is a game-changer
+
+Lesson 6: End-to-end security and compliance become its own discipline
+
+Lesson 7: AI impact is only seen once the software-defined foundation exists
+
+Analyst takeaway: What automation decision-makers should borrow, adapt, and avoid
+
+3 software trends observed at SPS 2025 (Insights+ exclusive)
+
+Comparison of tech-native and traditional OEMS regarding SDV adoption (Insights+ exclusive)
+
+Hardware is getting software-defined, and automakers are leading the charge
+
+Entering the software-defined everything (SDE) era. Hardware is undergoing an architectural revolution toward software-defined systems. As products become more connected, feature-rich, and update-driven, building,
+
+SOURCE: Semtech Partners with Digital Barriers to Launch AI-Powered Video Compression
+Semtech recently announced a partnership with Digital Barriers to deliver a fully integrated device-to-cloud cellular video solution, Semtech Video Compression that is purpose-built for critical video surveillance and analytics.
+
+In a separate announcement, Semtech’s LoRa technology will continue to serve as the core radio modulation for Amazon Sidewalk across all markets in this year’s Sidewalk international expansion. Semtech is a provider of high-performance semiconductor, Internet of Things (IoT) systems and cloud connectivity service solutions.
+
+For their turnkey solution with Digital Barriers, the partnerships involved integrating EdgeVis AI-powered video compression into Semtech’s AirLink XR60 5G router, paired with the company’s multi-carrier global Smart Connectivity services. It enables applications requiring live video transmission over cellular networks— including remote security surveillance, traffic monitoring and critical infrastructure monitoring— transforming how organizations manage operations in remote and challenging environments.
+
+Semtech’s Rupa Datta Comments
+
+Rupa Datta, vice president of connected services at Semtech, said the Digital Barriers deal represents a significant expansion of Semtech’s connectivity value proposition.
+
+“By integrating AI-powered video compression into our Connected Services offerings, we’re not just enabling customers to manage bandwidth costs—we’re enabling critical use cases for video streaming applications that weren’t econ
+
+SOURCE: How Texas Children’s Saved $14M with Zebra RFID Solutions: RFID Journal Case Study
+As hospitals in the U.S. become larger and have to serve more patients, ensuring that inventory counts for medicines to are up to date and accurate has become a priority.
+
+This was an issue that Texas Children’s Hospital was having as its pharmacy was struggling with a lack of real-time inventory visibility, leading to several critical issues. An annual inventory review revealed $40 million in medications that could not be properly tracked, representing 8-10% of their drug budget.
+
+As a result, pharmacy technicians spent hours manually counting items and reconciling reports, which often had discrepancies. And ordering was based on “gut feeling,” resulting in overstocking, expired medications, and supply gaps.
+
+Texas Children’s Hospital
+
+Texas Children’s Hospital is a not-for-profit healthcare organization with a mission to create a healthier future for children and women globally through leadership in patient care, education, and research.
+
+As one of the nation’s largest and most comprehensive pediatric and women’s health care organizations that consistently ranked among the top children’s hospitals in the United States by U.S. News & World Report, it manages nearly 4.9 million patient encounters annually and is the primary pediatric training site for Baylor College of Medicine.
+
+RFID Hardware
+
+To solve their pharmaceutical inventory issue, they worked in collaboration with Zebra Technologies and Tecsys to co-engineer an RFID-powered solution. Zebra is a global leader in digi
+
+SOURCE: Protecting Patients from Counterfeit Pharmaceuticals with RAIN RFID
+Glucagon-Like Peptide-1 (GLP-1) receptor agonists are a class of medicines that are utilized to support the treatment of diabetes and, increasingly, weight loss and other similar medical needs.
+
+Licensed versions of these medicines are sold under brand names including Wegovy, Ozempic and Mounjaro, each of which has undergone rigid scrutiny by official regulators to ensure that they are safe for use.
+
+However, as these therapies have become increasingly popular, counterfeit versions have begun to infiltrate the supply chain – many of which are unregulated, untested and unsafe. In 2025, the United Kingdom’s dedicated regulator, the Medicines and Healthcare products Regulatory Agency (MRHA), carried out the world’s largest seizure of unlicensed weight-loss medicines, uncovering a factory making injection pens that were labelled as containing the key ingredient in Mounjaro. The World Health Organization (WHO) estimates that the counterfeit drug market is worth up to $400 billion a year.
+
+Battling Counterfeit Drugs
+
+The risk of counterfeit drugs entering the marketplace is off the charts. This poses a clear and present danger to the health of patients – with potentially life-threatening implications. There is also the threat of reputational damage for the brands producing authentic medication if someone has an adverse reaction to a counterfeit version, as well as for pharmacists that may unknowingly distribute counterfeit medicines if they accidentally enter the supply chain.
+
+A t
+
+SOURCE: Fuel surcharges give rates to US a boost – with more to come
+Mediterranean regional feeder networks feeling the strain again
+
+The east-west Mediterranean container feeder network is again coming under acute stress from the geopolitical ...
+
+Spot rates shrug off Iran shock as carriers chase volume over profits
+
+Container spot freight rates on the main east-west trades largely flatlined this week as excess ...
+
+Forwarders warn war-risk surcharges could set dangerous precedent
+
+Unregulated carrier surcharging practices prompted by the US/Israel war against Iran could have precedent-setting effects, ...
+
+Japan-N Europe service start reinforces CMA CGM standalone aim
+
+CMA CGM kicked off its standalone weekly Japan-North Europe service today with the arrival of ...
+
+Air cargo fuel surcharges diverge sharply as oil price surges
+
+Cargo fuel surcharges jumped sharply in late March as jet fuel prices spiked – but not ...
+
+The Loadstar Snapshot, Episode 2: Who pays the $2bn shipping bill?
+
+This week on The Loadstar Snapshot, we examine the financial fallout of the Middle East ...
+
+Phantom GRIs expose Transpacific versus Asia-Europe divide
+
+A growing divergence between quoted and paid freight rates is exposing what Sea-Intelligence has termed “Phantom ...
+
+Mærsk announces $140 inland fuel surcharge in the US
+
+Mærsk noted today that the conflict in the Middle East has had a “considerable impact ...
+
+Surging fuel costs lift spots... for now
+
+The fallout from the US-Israel-Iran conflict is now beginning to bleed into the main container ...
+
+SOURCE: Container derivative trade debuts in New York – a ‘natural evolution’
+Orders for car-carriers plummet as shipbuilding market dynamics shift
+
+Orders for new pure car and truck carriers (PCTCs) have plunged this year, with just ...
+
+Low-cost car exports driving market share growth for China
+
+Chinese car exports have beaten challenges from tariffs imposed by the US and EU and ...
+
+'Volatile few years' for shipping could prompt new contracting approach
+
+Stakeholders looking to hedge cost-associated risks in anticipation of heightened market volatility could consider a ...
+
+Containership charter market feels the ripples from trade tensions
+
+The charter market for containerships is diverging in response to the many pressures on supply ...
+
+Asia-US box traffic hits an all-time high, boosted by retail front-loading
+
+Containerised exports from 18 Asian countries to the US hit an all-time high of 21.45m ...
+
+Container teu-mile growth could go into reverse if Red Sea transits resume
+
+Ocean container teu-mile trade grew 18% year on year in 2024, to 1,171 teu per ...
+
+U-turn for ocean rates in car-carrier charter market as exports level off
+
+The car-carrier market is now at a crossroads, as charter rates have corrected substantially from ...
+
+The Red Sea crisis and its impact on containership deployment
+
+The impact of the Red Sea crisis on containership deployment trends – after a wave ...
+
+Capacity squeeze will ease as more newbuilds arrive, says Xeneta
+
+Additional tonnage being introduced to the ocean shipping market next year presents “an opportunity for
+
+SOURCE: Russian plan to ban foreign carriers may be ‘symbolic’ gesture
+Carriers wait as ceasefire becomes 'test window' for Hormuz reopening
+
+Ceasefire agreed or not, the next five days will prove pivotal to the medium-term future ...
+
+Russia’s 'carrier ban': Signal, noise...or something more calculated?
+
+Redefining who is allowed to control logistics flows
+
+Kremlin plotting ban on major box carriers entering Russian ports
+
+Ukrainian intelligence has released a report claiming that the Kremlin is set to pass a ...
+
+Air freight rates surge ahead of ceasefire, while fuel fears cloud outlook
+
+A two-week ceasefire in the Middle East has raised hopes of easing pressure on global ...
+
+Box ship hit by missile after first CMA CGM vessel escapes Hormuz
+
+CMA CGM may have found a way around the madness in the Middle East, but ...
+
+SeaLead cuts back as Iran conflict and US charges hit operations
+
+The US-Iran conflict has severely curtailed SeaLead Shipping’s operations. The closure of the Strait of Hormuz ...
+
+Forwarders warn war-risk surcharges could set dangerous precedent
+
+Unregulated carrier surcharging practices prompted by the US/Israel war against Iran could have precedent-setting effects, ...
+
+RailFreight: SNCF and CMA CGM CEOs meet to discuss Rail Logistics Europe sale
+
+RailFreight.com reports: Rail Logistics Europe (RLE), which groups the rail freight subsidiaries of the SNCF Group, ...
+
+EXCLUSIVE: More pain at Ceva is MSC's delight? Two other top execs out – sources
+
+To be updated, on merit
+
+PAPER: Impact of the Temperature and Humidity Variations on Link Quality of xm1000 Mote Sensors
+ABSTRACT: The core motivations of deploying a sensor network for a specific application come from the autonomy of sensors, their reduced size, and their capabilities for computing and communicating in a short range. However, many challenges for sensor networks still exist: minimizing energy consumption, and ensuring the performance of communication that may be affected by many parameters. The work described in this paper covers mainly the analysis of the impact of the temperature and humidity variations on link quality of XM1000 operating under TinyOS. Two-way ANOVA test has been applied and the obtained results show that both the temperature and humidity variations impact RSSI.
+
+PAPER: Security for the Industrial IoT: The Case for Information-Centric Networking
+ABSTRACT: Industrial production plants traditionally include sensors for monitoring or documenting processes, and actuators for enabling corrective actions in cases of misconfigurations, failures, or dangerous events. With the advent of the IoT, embedded controllers link these `things' to local networks that often are of low power wireless kind, and are interconnected via gateways to some cloud from the global Internet. Inter-networked sensors and actuators in the industrial IoT form a critical subsystem while frequently operating under harsh conditions. It is currently under debate how to approach inter-networking of critical industrial components in a safe and secure manner.
+  In this paper, we analyze the potentials of ICN for providing a secure and robust networking solution for constrained controllers in industrial safety systems. We showcase hazardous gas sensing in widespread industrial environments, such as refineries, and compare with IP-based approaches such as CoAP and MQTT. Our findings indicate that the content-centric security model, as well as enhanced DoS resistance are important arguments for deploying Information Centric Networking in a safety-critical industrial IoT. Evaluation of the crypto efforts on the RIOT operating system for content security reveal its feasibility for common deployment scenarios.
+
