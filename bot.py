@@ -347,6 +347,35 @@ class Bot:
                               'is there', 'are there', 'do you', 'does', 'tell me']
         return any(text.endswith('?') or text.startswith(ind) for ind in question_indicators)
     
+    def is_mentioned(self, text: str) -> bool:
+        """Check if bot is mentioned with @marketbot or !marketbot."""
+        text = text.lower()
+        return '@marketbot' in text or '!marketbot' in text
+    
+    def should_respond(self, message: str, channel_type: str) -> bool:
+        """
+        Determine if bot should respond based on channel type.
+        
+        - Private channel: Respond to all questions
+        - Public channel: Only respond to questions that mention @marketbot
+        
+        Args:
+            message: The message text
+            channel_type: "private" or "public"
+        
+        Returns:
+            True if bot should respond
+        """
+        if not self.is_question(message):
+            return False
+        
+        if channel_type == "private":
+            # In private channels (1-on-1): answer all questions
+            return True
+        else:  # "public"
+            # In public channels: only answer if mentioned
+            return self.is_mentioned(message)
+    
     def extract_topic(self, question: str) -> Optional[str]:
         """Try to detect topic from question."""
         question_lower = question.lower()
@@ -369,9 +398,10 @@ class Bot:
             if msg.actor_id == NC_USER:
                 continue
             
-            # Check if it's a question
-            if not self.is_question(msg.message):
-                logger.debug(f"[{channel_name}] Skipping non-question: {msg.message[:50]}")
+            # Check if we should respond based on channel type and message content
+            if not self.should_respond(msg.message, channel_name):
+                reason = "not a question" if not self.is_question(msg.message) else "missing @marketbot mention"
+                logger.debug(f"[{channel_name}] Skipping ({reason}): {msg.message[:50]}")
                 continue
             
             logger.info(f"[{channel_name}] Processing question from {msg.user}: {msg.message[:80]}")

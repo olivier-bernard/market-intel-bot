@@ -131,7 +131,7 @@ SEGMENTS = {
             "cold-chain compliance and data logging platforms, warehouse and transportation monitoring, "
             "real-time alerting and SLA breach detection, and platform integration (ERP, WMS, TMS). "
             "Identify new sensor technologies, connectivity standards (BLE, NB-IoT, 5G, other), "
-            "emerging SaaS platforms and startups, regulatory drivers (GDP, CCS, HACCP, pharma cold-chain), "
+            "emerging SaaS platforms and startups, regulatory drivers (GDP, HACCP, pharma cold-chain), "
             "and opportunities to improve visibility and reduce spoilage or loss across the cold chain."
         ),
         "recipient": "olivier@sapiochain.io",
@@ -395,6 +395,38 @@ def clean_summary(text):
     return result
 
 
+def markdown_to_html(text):
+    """Convert markdown formatting to HTML tags."""
+    # Convert bold **text** to <strong>text</strong>
+    text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
+    # Convert italic *text* to <em>text</em> (but not already processed **text**)
+    text = re.sub(r'(?<!\*)\*(.*?)\*(?!\*)', r'<em>\1</em>', text)
+    # Convert heading ### text to <h4>text</h4>
+    text = re.sub(r'^###\s+(.+)$', r'<h4 style="margin:12px 0 8px;font-size:16px;font-weight:600;color:#1f2937;">\1</h4>', text, flags=re.MULTILINE)
+    # Convert heading ## text to <h3>text</h3>
+    text = re.sub(r'^##\s+(.+)$', r'<h3 style="margin:12px 0 8px;font-size:18px;font-weight:700;color:#111827;">\1</h3>', text, flags=re.MULTILINE)
+    # Convert unordered list items * text to <li>text</li>
+    lines = text.split('\n')
+    result = []
+    in_list = False
+    for line in lines:
+        if re.match(r'^\s*[-*]\s+', line):
+            item = re.sub(r'^\s*[-*]\s+', '', line)
+            if not in_list:
+                result.append('<ul style="margin:8px 0;padding-left:20px;">')
+                in_list = True
+            result.append(f'<li style="margin:4px 0;">\n{item}</li>')
+        else:
+            if in_list and line.strip():
+                result.append('</ul>')
+                in_list = False
+            result.append(line)
+    if in_list:
+        result.append('</ul>')
+    text = '\n'.join(result)
+    return text
+
+
 def parse_sections(text):
     pattern = re.compile(r'^(\d+\.\s+[^\n]+)', re.MULTILINE)
     matches = list(pattern.finditer(text))
@@ -420,11 +452,12 @@ def format_html_email(segment_name, summary, date_str):
     cards_html = ""
     for idx, (sec_title, sec_content) in enumerate(sections):
         sec_icon = SECTION_ICONS[idx] if idx < len(SECTION_ICONS) else "\u2022"
-        safe_content = (
-            sec_content
-            .replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-            .replace("\n", "<br>")
-        )
+        # Escape HTML entities first
+        safe_content = sec_content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        # Convert markdown to HTML
+        safe_content = markdown_to_html(safe_content)
+        # Convert remaining newlines to <br>
+        safe_content = safe_content.replace("\n", "<br>")
         cards_html += (
             f'<div style="border-left:4px solid {color};background:#f8fafc;'
             f'border-radius:0 8px 8px 0;padding:16px 18px;margin-bottom:18px;">'
