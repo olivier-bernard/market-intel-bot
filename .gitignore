@@ -1,0 +1,38 @@
+
+# Environment & Credentials (DO NOT COMMIT)
+# Safe to commit: .env.example and segments.json.example as templates
+.env
+segments.json
+
+# Generated reports and data
+Final_Market_Screening_*.txt
+raw_data_*.txt
+past_summaries_*.txt
+
+# Logs
+logs/
+*.log
+
+# Virtual environment
+.venv/
+venv/
+
+.context/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
