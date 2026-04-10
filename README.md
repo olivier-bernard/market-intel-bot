@@ -218,27 +218,47 @@ curl http://alice:11434/api/tags          # Ollama
 
 ## Extending
 
-See [EXTENDING.md](./EXTENDING.md) to:
-- Add new topics & feeds
-- Customize LLM prompts
-- Change embedding models
-- Integrate Slack/Teams
-- Build RAG dashboards
-- Multi-language support
+To add a new topic: open `segments.json`, copy an existing segment block, change the key name and fields. No code change needed.
+
+To change LLM or embedding model: update `OLLAMA_MODEL` / `LLM_PROVIDER` in `.env`.
 
 ---
 
-## For Customers: Adapt & Deploy
+## Troubleshooting
 
-This is a **blueprint** for market intelligence. Customize:
+**Qdrant or Ollama not responding**
+```bash
+curl http://alice:6333/health
+curl http://alice:11434/api/tags
+docker restart qdrant          # restart Qdrant
+pkill ollama && ollama serve & # restart Ollama
+```
 
-1. **Topics**: Define your domains (legal, finance, health, retail)
-2. **Sources**: Curate RSS feeds for your industry
-3. **Prompts**: Write analysis instructions for your use case
-4. **Branding**: Deploy under your identity
+**"model not found"**
+```bash
+ollama pull nomic-embed-text
+ollama pull VladimirGav/gemma4-26b-16GB-VRAM  # or whichever model you use
+```
 
-**Example adaptations:**
-- Legal: Monitor legislation, court rulings
-- Finance: Track market movements, earnings
-- Healthcare: Clinical trials, FDA approvals
-- Retail: Competitor pricing, supply chain
+**LLM fails to load after ingest** — the embedding model occupies GPU memory. `ingest.py` unloads it automatically when finished. If you get a 500 from Ollama, wait a moment and retry.
+
+**No Nextcloud messages appear**
+```bash
+# Test channel token directly
+curl -u botuser:password https://your-nextcloud/ocs/v2.php/apps/spreed/api/v4/chat/TOKEN \
+  -H "OCS-APIRequest: true"
+```
+Check `nc_token`, `nc_url`, `nc_user`, `nc_pass` in `segments.json`.
+
+**CLAUDE_API_KEY not found** — ensure it is set in `.env` with no extra spaces or quotes.
+
+---
+
+## Adapt & Deploy
+
+This is a blueprint for any market intelligence use case. Customize `segments.json` for your domains:
+
+- **Legal**: legislation, court rulings
+- **Finance**: market movements, earnings reports
+- **Healthcare**: clinical trials, FDA approvals
+- **Retail**: competitor pricing, supply chain
