@@ -1,4 +1,3 @@
-
 # Environment & Credentials (DO NOT COMMIT)
 # Safe to commit: .env.example and segments.json.example as templates
 .env
