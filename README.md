@@ -15,7 +15,7 @@ News collection → semantic indexing → RAG-powered Q&A. Automates market moni
 
 ```bash
 # 1. Setup
-git clone https://github.com/your-org/market-intel-bot.git
+git clone https://github.com/olivier-bernard/market-intel-bot.git
 cd market-intel-bot
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
