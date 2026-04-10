@@ -530,3 +530,296 @@ PAPER: Security for the Industrial IoT: The Case for Information-Centric Network
 ABSTRACT: Industrial production plants traditionally include sensors for monitoring or documenting processes, and actuators for enabling corrective actions in cases of misconfigurations, failures, or dangerous events. With the advent of the IoT, embedded controllers link these `things' to local networks that often are of low power wireless kind, and are interconnected via gateways to some cloud from the global Internet. Inter-networked sensors and actuators in the industrial IoT form a critical subsystem while frequently operating under harsh conditions. It is currently under debate how to approach inter-networking of critical industrial components in a safe and secure manner.
   In this paper, we analyze the potentials of ICN for providing a secure and robust networking solution for constrained controllers in industrial safety systems. We showcase hazardous gas sensing in widespread industrial environments, such as refineries, and compare with IP-based approaches such as CoAP and MQTT. Our findings indicate that the content-centric security model, as well as enhanced DoS resistance are important arguments for deploying Information Centric Networking in a safety-critical industrial IoT. Evaluation of the crypto efforts on the RIOT operating system for content security reveal its feasibility for common deployment scenarios.
 
+
+############################################################
+# SEGMENT: IoT_Supply_Chain | DATE: 2026-04-10 11:11
+############################################################
+SOURCE: USPS Asks to Raise Stamp Price to 82 Cents to Ease Cash Crisis
+The United States Postal Service proposed raising the price of a first-class stamp by 4 cents to 82 cents, the agency said on April 9 as seeks to improve its dire financial situation.
+
+The proposed 4.8% price hike will be reviewed by the Postal Regulatory Commission, an oversight body, and if approved, would go into effect July 12. It would be the eighth stamp price hike since 2021, an increase of about 34% over that time, according to the PRC.
+
+The proposal comes soon after the agency said it plans to implement later this month an 8% price increase on package shipping to offset rising transportation costs.
+
+The recent price increases on mail and shipping reflect the postal service’s efforts to get out of a long-term and increasingly urgent financial crisis brought on by declining mail volumes, exorbitant operating costs and burdensome pension requirements. Postmaster General David Steiner has said that the agency is at risk of running out of cash as early as next year.
+
+Earlier on April 9, the PRC passed a separate waiver that would lift certain pension funding requirements for the agency, potentially freeing up to $15 billion through 2030 to provide the postal service “some breathing room and flexibility to repurpose revenues that it would have used for retiree benefits to execute its contingency plans to avoid running out of cash,” the PRC said in a statement.
+
+SOURCE: Report: FCC Ban on Foreign Routers Misses Root Cause of Cyber Risk
+A recent Federal Communications Commission ban on foreign-made internet routers could end up straining supply chains, while failing to address critical cybersecurity vulnerabilities hackers are known to exploit.
+
+According to an April 9 report published by the Global Electronics Association, more than 100 million consumer routers are currently active in the U.S., virtually none of which were made in the U.S. Those routers are primarily assembled and manufactured in Taiwan, Vietnam, Thailand, and to a smaller extent China. However, the GEA asserts that the vulnerabilities that make routers attractive targets for hackers "have little to do with where they are built."
+
+"Insecure defaults, exposed management interfaces, weak authentication, and above all, inadequate patching and end-of-life support are engineering and lifecycle failures, not geographic ones," the report reads, noting that those issues appear across brands and countries of origin alike. And in fact, one of the most prominent cyber-intrusions in recent memory was when Chinese hacker group Salt Typhoon penetrated the systems of U.S.-based telecommunications companies in 2024, by exploiting American-designed equipment that was running unpatched software.
+
+Furthermore, the FCC's ban — enacted over concerns related to potential security gaps in foreign-made routers — carries an implicit requirement to establish a domestic router manufacturing base that does not exist, the GEA notes. No major router manufacturer operate
+
+SOURCE: Watch: Why Is It So Tough for Supply Chains to Achieve End-to-End Visibility?
+After a volatile 2025, how are supply chain leaders approaching 2026? Mahesh Rajasekharan, CEO of Cleo, offers a perspective.
+
+Last year found supply chain organizations confronting extreme volatility in multiple forms, and the situation continues in 2026, Rajasekharan says. But one thing is different: As geopolitical tensions dominate decision-making, “companies are now viewing supply chain volatility as structural, not episodic.”
+
+Supply chains are under “complete reconsideration,” as companies move from a tactical approach to one that covers end-to-end movements. As that happens, supply chains evolve from providing a source of efficiency to “monetizing uncertainty, so that they can compete in the market.”
+
+Why, though, is it proving so difficult to obtain end-to-end visibility across supply chains? Rajasekharan says companies have been hampered in recent years by the cobbling together of multiple point solutions. That approach has created “massive friction” and led to a poor customer experience.
+
+Companies are realizing today that they can no longer restrict automation to the four walls of the business. “They need to see signals across the supply chain,” he says.
+
+The key lies in supply chain orchestration, an approach that “bridges the gap between planning and execution.”
+
+For suppliers, it’s becoming increasingly important to avoid chargeback penalties assessed by retailers for failure to deliver on time, or meet other requirements of service-level agreements. That inabi
+
+SOURCE: What CEOs talked about in Q1 2026: Iran war, physical/agentic AI, OpenClaw, and the SaaSpocalypse
+In short
+
+According to IoT Analytics’ latest What CEOs Talked About report, AI maintained the top spot in CEOs’ minds in Q1 2026, with discussions around physical and agentic AI increasing.
+
+The onset of armed conflict in the Middle East made discussions about Iran rise steeply.
+
+Talk about OpenClaw and SaaSpocalypse, too, had sharp increases.
+
+Discussions around AI bubble concerns, uncertainty, and tariffs declined.
+
+Why it matters
+
+The prioritization of specific topics by CEOs may influence investment in these areas.
+
+In this article
+
+The big picture
+
+Key rising themes in Q1 2026
+
+1. Iran
+
+2. Physical and agentic AI
+
+3. OpenClaw
+
+4. SaaSpocalypse
+
+Declining themes in Q1 2026
+
+1. Tariffs and uncertainty
+
+2. AI bubble
+
+What it means for CEOs
+
+Further analysis
+
+CEO digital agenda by sector (Insights+)
+
+How CEOs discuss AI (Insights+)
+
+Manufacturing challenges in Q1 2026 (Insights+)
+
+The big picture
+
+Iran
+
+Iran conflict lifted oil prices and call mentions. In Q1 2026, many CEOs had what was (and still is) on the minds of many around the world: armed conflict between the US/Israel and Iran. While Iran was not the most-discussed topic on earnings calls, it experienced the largest quarter-over-quarter (QoQ) jump, up 550% to 3.3% of earnings calls. Coinciding with this, discussions about the Middle East rose 47% QoQ to 14% of earnings calls, and geopolitics appeared in 17.5% (up 53.8% QoQ).
+
+Most notable to IoT Analytics is that this conflict has showcased a new type of warfare: Da
+
+SOURCE: The top 10 smart manufacturing technology vendors
+In short
+
+The global smart manufacturing market reached $175 billion in 2025, according to IoT Analytics’ Industry 4.0 & Smart Manufacturing Market Report 2026–2030 (published March 2026).
+
+IoT Analytics projects the market to grow at a CAGR of 9.3% until 2030, reaching $274 billion.
+
+In 2026, the top 10 smart manufacturing technology vendors are prioritizing software-defined, AI-infused architectures, but their approaches differ.
+
+In this article
+
+Smart manufacturing market snapshot and outlook
+
+Comparing the top 10 smart manufacturing vendors
+
+Deep dive: The top 10 vendors
+
+Further analysis
+
+Global smart manufacturing market by segment and technology (Insights+)
+
+Growth vs maturity of smart manufacturing technologies (Insights+)
+
+Top 20 smart manufacturing vendors (Insights+)
+
+Key segments for the top 20 smart manufacturing vendors (Insights+)
+
+3 key action items from this report for strategists, product managers, marketers, and salespeople (Insights+)
+
+Smart manufacturing market snapshot and outlook
+
+Industrial AI is reviving the smart manufacturing technology market. Early evidence suggests that industrial AI is beginning to re-energize the smart manufacturing market, with data management/platform, AI platform, and AI-related investments such as mobile robotics increasingly driving market growth, according to IoT Analytics’ 406-page Industry 4.0 & Smart Manufacturing Market Report 2026–2030 (published March 2026). The global smart manufacturing market (hardware, software,
+
+SOURCE: 7 lessons manufacturers can learn from automakers in the era of software-defined everything
+In short
+
+A software-defined-everything revolution is currently changing hardware technology architectures.
+
+Automotive OEMs are leading this revolution with 80%+ of carmakers actively building software-defined vehicle architectures.
+
+Manufacturers and industrial automation companies are further behind in adopting software-defined architectures and can take 7 lessons from the automotive SDV playbook.
+
+In this article
+
+Hardware is getting software-defined, and automakers are leading the charge
+
+7 lessons manufacturers can learn from SDVs
+
+Lesson 1: Consolidate computing across the stack
+
+Lesson 2: The edge platform layer becomes very important
+
+Lesson 3: Decouple the software lifecycle from the hardware lifecycle
+
+Lesson 4: DevOps and toolchains bring “software-defined” to life
+
+Lesson 5: OTA is a game-changer
+
+Lesson 6: End-to-end security and compliance become its own discipline
+
+Lesson 7: AI impact is only seen once the software-defined foundation exists
+
+Analyst takeaway: What automation decision-makers should borrow, adapt, and avoid
+
+3 software trends observed at SPS 2025 (Insights+ exclusive)
+
+Comparison of tech-native and traditional OEMS regarding SDV adoption (Insights+ exclusive)
+
+Hardware is getting software-defined, and automakers are leading the charge
+
+Entering the software-defined everything (SDE) era. Hardware is undergoing an architectural revolution toward software-defined systems. As products become more connected, feature-rich, and update-driven, building,
+
+SOURCE: How Texas Children’s Saved $14M with Zebra RFID Solutions: RFID Journal Case Study
+As hospitals in the U.S. become larger and have to serve more patients, ensuring that inventory counts for medicines to are up to date and accurate has become a priority.
+
+This was an issue that Texas Children’s Hospital was having as its pharmacy was struggling with a lack of real-time inventory visibility, leading to several critical issues. An annual inventory review revealed $40 million in medications that could not be properly tracked, representing 8-10% of their drug budget.
+
+As a result, pharmacy technicians spent hours manually counting items and reconciling reports, which often had discrepancies. And ordering was based on “gut feeling,” resulting in overstocking, expired medications, and supply gaps.
+
+Texas Children’s Hospital
+
+Texas Children’s Hospital is a not-for-profit healthcare organization with a mission to create a healthier future for children and women globally through leadership in patient care, education, and research.
+
+As one of the nation’s largest and most comprehensive pediatric and women’s health care organizations that consistently ranked among the top children’s hospitals in the United States by U.S. News & World Report, it manages nearly 4.9 million patient encounters annually and is the primary pediatric training site for Baylor College of Medicine.
+
+RFID Hardware
+
+To solve their pharmaceutical inventory issue, they worked in collaboration with Zebra Technologies and Tecsys to co-engineer an RFID-powered solution. Zebra is a global leader in digi
+
+SOURCE: Protecting Patients from Counterfeit Pharmaceuticals with RAIN RFID
+Glucagon-Like Peptide-1 (GLP-1) receptor agonists are a class of medicines that are utilized to support the treatment of diabetes and, increasingly, weight loss and other similar medical needs.
+
+Licensed versions of these medicines are sold under brand names including Wegovy, Ozempic and Mounjaro, each of which has undergone rigid scrutiny by official regulators to ensure that they are safe for use.
+
+However, as these therapies have become increasingly popular, counterfeit versions have begun to infiltrate the supply chain – many of which are unregulated, untested and unsafe. In 2025, the United Kingdom’s dedicated regulator, the Medicines and Healthcare products Regulatory Agency (MRHA), carried out the world’s largest seizure of unlicensed weight-loss medicines, uncovering a factory making injection pens that were labelled as containing the key ingredient in Mounjaro. The World Health Organization (WHO) estimates that the counterfeit drug market is worth up to $400 billion a year.
+
+Battling Counterfeit Drugs
+
+The risk of counterfeit drugs entering the marketplace is off the charts. This poses a clear and present danger to the health of patients – with potentially life-threatening implications. There is also the threat of reputational damage for the brands producing authentic medication if someone has an adverse reaction to a counterfeit version, as well as for pharmacists that may unknowingly distribute counterfeit medicines if they accidentally enter the supply chain.
+
+A t
+
+SOURCE: Checkpoint RFID Innovation Secures Scotch Whisky Traceability
+A recent UK investigation uncovered fraud within the Scotch whisky cask investment industry, exposing how investors were misled by false claims and, in some cases, entirely fictitious casks.
+
+The BBC’s Disclosure: Hunting the Whisky Bandits resulted in industry-wide calls for stronger regulation, digital transparency and verified ownership records. More than 33 million whisky casks are currently in storage across Scotland, many with limited traceability and minimal digital oversight.
+
+To meet the moment, Checkpoint Systems is offering a solution to ensure transparency and traceability. SmartCask RFID tags integrate long-life data chips directly onto individual casks, creating a unique digital identity designed to endure for decades. With standard storage conditions, the technology is engineered to last up to 30 years, according to company officials.
+
+Checkpoint Offering
+
+When CCL Industries— Checkpoint’s parent company and one of the world’s largest label and packaging solutions provider— began exploring solutions for the transparency challenges in the whisky cask sector, it was determined a solution featuring CCL’s secure labeling and authentication could me married with Checkpoint’s RFID innovation and digital lifecycle tracking.
+
+Together, the two compnaies identified the core issues facing the industry: unreliable asset identities, no unified system to verify ownership, limited visibility across the supply chain, and an urgent need for tamper resistant digital records. Th
+
+SOURCE: Air freight ‘very, very far’ from normalisation, despite ceasefire
+How to bypass the Strait of Hormuz with a trucking landbridge
+
+With the US/Israel-Iran conflict now into its second month, The Loadstar’s readers are well acquainted ...
+
+SOURCE: DSV cuts in Texas as talk mounts of further restructuring ahead
+DHL: The Teamsters just whacked autonomous trucks – the body's in the contract
+
+There is a delicious contradiction too at the heart of the DHL deal
+
+The dog that didn’t bark – why PPC is suing Mærsk but not MSC
+
+Smell the catalyst
+
+Mærsk in the crosshairs: Hutchison opens a new legal front over Panama
+
+London next
+
+DSV vs CH Robinson – different stories, same 2026 lows
+
+Q1 25 gone, value nowhere in sight yet
+
+What Vanguard's 'surrender' means for T&L boardrooms, BlackRock & State Street
+
+The driest possible form of corporate paperwork – implications
+
+From AI agents to AI platforms – the 'dark horse' threat to CargoWise
+
+Build it, buy it or AI-it?
+
+The Loadstar Snapshot Ep. 1: DSV migrates from CargoWise
+
+Welcome to the first episode of our new weekly video series, The Loadstar Snapshot. This ...
+
+Expeditors vs WiseTech – two bets on the future of customs brokerage
+
+And no rulebook to settle the argument
+
+STB orders antitrust-grade discovery in rail M&A: UP-NS the test case
+
+The goalposts haven’t just moved – they’re on wheels
+
+SOURCE: Feeders still dominate newbuild box ship orders
+Intra-Asia trade the next hunting ground for M&A-hungry carriers
+
+The intra-Asia trade has emerged from 2025 not only as questionably the largest trade, but ...
+
+MSC spending spree goes on: this week a dozen new box ships
+
+MSC has again shown its appetite for newbuildings is far from over, this week ordering ...
+
+Relief for importers as rates on China-to-India trades start to ease
+
+Indian manufacturers and shippers relying on imports from China have begun to see a slight ...
+
+Incheon port looks to India and Indonesia amid supply chain shift from China
+
+Incheon Port Authority sees India and Indonesia as the new China, tapping into countries that ...
+
+H1 results show resilience of intra-Asia container lines to tariff turmoil
+
+Liner operators’ results in H1 25 clearly show that intra-Asia ocean carriers have been the ...
+
+With the fleet ageing, tonnage buyers are opting for new feeders
+
+Orders at Chinese yards for new box ships in the past week were predominantly for ...
+
+As China-India trade expands, carriers add capacity, impacting rates
+
+More Chinese container lines are pouring capacity into the Indian market, as trades between the ...
+
+Soaring box lines make market cap hay, but nowhere near C-19 highs for most
+
+If the CAP fits…
+
+Container lines still ordering more ships, despite falling spot rates
+
+Liner operators and non-operating shipowners have continued to add to their already swollen orderbooks, despite ...
+
+PAPER: Impact of the Temperature and Humidity Variations on Link Quality of xm1000 Mote Sensors
+ABSTRACT: The core motivations of deploying a sensor network for a specific application come from the autonomy of sensors, their reduced size, and their capabilities for computing and communicating in a short range. However, many challenges for sensor networks still exist: minimizing energy consumption, and ensuring the performance of communication that may be affected by many parameters. The work described in this paper covers mainly the analysis of the impact of the temperature and humidity variations on link quality of XM1000 operating under TinyOS. Two-way ANOVA test has been applied and the obtained results show that both the temperature and humidity variations impact RSSI.
+
+PAPER: Security for the Industrial IoT: The Case for Information-Centric Networking
+ABSTRACT: Industrial production plants traditionally include sensors for monitoring or documenting processes, and actuators for enabling corrective actions in cases of misconfigurations, failures, or dangerous events. With the advent of the IoT, embedded controllers link these `things' to local networks that often are of low power wireless kind, and are interconnected via gateways to some cloud from the global Internet. Inter-networked sensors and actuators in the industrial IoT form a critical subsystem while frequently operating under harsh conditions. It is currently under debate how to approach inter-networking of critical industrial components in a safe and secure manner.
+  In this paper, we analyze the potentials of ICN for providing a secure and robust networking solution for constrained controllers in industrial safety systems. We showcase hazardous gas sensing in widespread industrial environments, such as refineries, and compare with IP-based approaches such as CoAP and MQTT. Our findings indicate that the content-centric security model, as well as enhanced DoS resistance are important arguments for deploying Information Centric Networking in a safety-critical industrial IoT. Evaluation of the crypto efforts on the RIOT operating system for content security reveal its feasibility for common deployment scenarios.
+

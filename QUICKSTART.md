@@ -190,6 +190,87 @@ Once comfortable, consider:
 - [ ] Implementing multi-turn conversations
 - [ ] Adding hybrid search (keyword + semantic)
 
+## Configuring Segments (`segments.json`)
+
+All topics, feeds, emails, and Nextcloud routing are defined in `segments.json` at the root of the script directory. The Python script never needs to be edited to add or modify a topic.
+
+### Getting started
+
+```bash
+# Copy the template to your local config
+cp segments.json.example segments.json
+
+# Edit with your feeds, prompts, and Nextcloud tokens
+nano segments.json
+```
+
+### File structure
+
+```json
+{
+  "_defaults": {
+    "nc_url":  "https://your-nextcloud.example.com",
+    "nc_user": "botuser",
+    "nc_pass": "bot-app-password"
+  },
+  "segments": {
+    "My_Topic": {
+      "feeds":        ["https://example.com/feed/"],
+      "arxiv_query":  "keywords for arxiv search, or null to skip",
+      "prompt":       "System persona and focus areas for the LLM summary.",
+      "recipient":    "you@example.com",
+      "color":        "#hexcolor",
+      "icon":         "🔎",
+      "nc_token":     "nextcloud-talk-channel-token"
+    }
+  }
+}
+```
+
+### Fields
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `feeds` | yes | List of RSS/Atom feed URLs to collect articles from |
+| `arxiv_query` | yes | Keyword query for arXiv preprint search; set to `null` to skip arXiv |
+| `prompt` | yes | LLM system prompt — defines the analyst persona and focus |
+| `recipient` | yes | Email address to send the HTML newsletter to |
+| `color` | yes | Hex color used as the card accent in the HTML email |
+| `icon` | yes | Emoji displayed in the email card header |
+| `nc_token` | yes | Nextcloud Talk channel token (copy from the channel URL) |
+| `nc_url` | no | Override Nextcloud server URL for this segment only |
+| `nc_user` | no | Override Nextcloud bot username for this segment only |
+| `nc_pass` | no | Override Nextcloud bot password for this segment only |
+
+### `_defaults` block
+
+`_defaults` holds the shared Nextcloud server credentials used by every segment that does **not** provide its own `nc_url` / `nc_user` / `nc_pass`. Fill it in once and all segments inherit it.
+
+### Overriding the Nextcloud server per segment
+
+If one of your channels lives on a **different Nextcloud instance**, add `nc_url`, `nc_user`, and `nc_pass` directly inside that segment's object. They override the `_defaults` for that segment only:
+
+```json
+"Medical_CCS": {
+  "feeds": ["..."],
+  "nc_token": "abc123",
+  "nc_url":  "https://other-server.example.com",
+  "nc_user": "otherbot",
+  "nc_pass": "other-app-password"
+}
+```
+
+### Adding a new segment
+
+1. Open `segments.json`.
+2. Copy any existing segment block and paste it as a new key under `"segments"`.
+3. Change the key name (e.g. `"Finance_AI"`), update all fields, and save.
+4. Run `python3 collect_news.py` — the new segment is picked up automatically.
+
+No restart, no code change required.
+
+---
+
 ## Support
 
 If something breaks:

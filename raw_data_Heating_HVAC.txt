@@ -345,3 +345,126 @@ ABSTRACT: The aim of this paper is to briefly recall heat transfer modes and exp
 PAPER: A Metric of Software Size as a Tool for IT Governance
 ABSTRACT: This paper proposes a new metric for software functional size, which is derived from Function Point Analysis (FPA), but overcomes some of its known defi- ciencies. The statistical results show that the new metric, Functional Elements (EF), and its submetric, Functional Elements of Transaction (EFt), have higher correlation with the effort in software development than FPA in the context of the analyzed data. The paper illustrates the application of the new metric as a tool to improve IT governance specifically in assessment, monitoring, and giving directions to the software development area.
 
+
+############################################################
+# SEGMENT: Heating_HVAC | DATE: 2026-04-10 11:14
+############################################################
+SOURCE: High HVAC Prices Are Inviting New Competition
+Those are serious allegations. And to be clear, they remain allegations. Courts draw a sharp line between legal “conscious parallelism” and illegal coordination. Regardless of how the case plays out, the lawsuit is tapping into something contractors already know: equipment got expensive, fast — and prices haven’t come back down.
+
+Manufacturers have offered real explanations for rising costs, including supply chain disruptions, commodity inflation, new SEER2 and DOE regulations, as well as the AIM Act and A2L transition. These are all valid reasons, but the lawsuit argues that those factors don’t fully explain the scale of price increases. Either way, contractors are dealing with the consequences: higher quotes and more homeowners choosing to repair instead of replace.
+
+But things are starting to get interesting. As demand for residential equipment has softened and prices remain high, new competitors are stepping in with a different approach — not just improving equipment, but rethinking the entire cost structure.
+
+Take Merino Energy, a startup that introduced the Mono system — a through-the-wall heat pump that plugs into a standard outlet and installs in about an hour. The company is advertising a flat price of around $3,800 installed — a fraction of most traditional ducted systems. What’s even more interesting is where Merino came from. Its founders are alumni of two other startups — Quilt and Gradient — that are also working to fundamentally rethink how HVAC systems are des
+
+SOURCE: F.W. Webb Expands to Somerdale, New Jersey With New Wholesale Store
+Easily accessible from White Horse Pike, the New Jersey Turnpike, and Route 295, the open-concept Somerdale store is designed for efficiency and convenience. Trade professionals can get what they need and quickly return to their projects. Key features of the new location include:
+
+Project-ready selection — Thousands of products, from pipe fittings to HVAC equipment, are in stock and ready to install. In Somerdale, F.W. Webb delivers on its longstanding promise: We’ve Got It.
+
+Time-saving amenities — Online ordering, efficient will-call service, and free local deliveries give contractors and other professionals convenient procurement options.
+
+Open-concept layout — The easy-to-navigate store helps contractors find replacement parts, cleaning supplies, and other high-quality products without losing valuable time.
+
+“For everyone from one-van contractors to operators at large facilities, this store was built to be a place the trades can count on,” said Tim D’Armiento, general manager of F.W. Webb’s Somerdale operations. “The product selection is here, the support is here, and our goal is to help contractors complete their projects efficiently and play a key role in their success.”
+
+Operations manager Lanea Motley and store manager Jason Ferriero will lead a team serving customers Monday through Friday, 6:30 a.m. to 4:30 p.m. To support the new store, F.W. Webb is hiring for multiple roles, bringing new employment opportunities to the area.
+
+The company also hosts annual trade sho
+
+SOURCE: From the ACHR NEWS Archives: ‘Industry Pulls Together to Help Win World War II’
+How did they do that? Well, by pivoting their innovations. Manufacturers, engineers, and technicians across the industry shifted their focus almost overnight and rallied their efforts into channeling their expertise to support the war. Equipment originally designed for grocery or retail stores was taken, for the time being, and repurposed to be used in the war. If the equipment didn’t exist, it was created. Technicians who worked on residential equipment were called upon as soldiers, and to also repair HVACR equipment during the war.
+
+The following article, originally written by Peter Powell for the ACHR NEWS 75th anniversary, explores how the industry came together during this time — highlighting the companies, technologies, and people who helped power a global effort that aided us in ultimately winning the war.
+
+“Industry Pulls Together to Help Win World War II”
+
+The ACHR NEWS, April 2001
+
+“When it comes to the 1940s, there was a major reason why air conditioning and refrigeration didn’t make the quantum leaps of the decades that came before and those that would follow. That reason can be summarized with the remark, “There was a war on, you know.”
+
+Never before and never since have the manpower and machinery of one nation been united so wholly for a single purpose — that of winning a war.
+
+Service technicians able to handle heavy equipment, diagnose problems, and find solutions in the field were prime candidates for military service. The factories of the major manufacturers
+
+SOURCE: Get Safe Online launches online safety campaign
+Get Safe Online has launched an online safety campaign for the plumbing trade.
+
+The company stated that many small businesses will be required to use HMRC’s Making Tax Digital from April 6 and has encouraged plumbers to reflect on their online habits. According to Get Safe Online, companies in the plumbing and heating sector are being heavily targeted by fraudsters.
+
+Tony Neate, CEO at Get Safe Online, said: “Earning money and keeping your customers happy is often done at the expense of everyday jobs essential to every business, like admin and finances. And keeping yourself safe from fraud is no exception.
+
+“As you transfer to Making Tax Digital, why not take the opportunity to learn tips and advice on staying safe online too? We have a wealth of expert, easy-to-follow advice at getsafeonline.org”
+
+Typical online threats facing those in the plumbing trade include purchase fraud, payment diversion fraud, impersonation fraud, investment fraud and ransomware.
+
+Get Safe Online has shared some tips for staying safe online.
+
+The company recommended that plumbers should always pay by credit card, never by bank transfer, when making one-off online purchases of supplies, sundries or tools online. It also suggested seeing the goods in person. Get Safe Online said that thinking about the advertisement is also important. It is helpful to think about whether it seems genuine, if anything seems ‘not quite right’ and if it is easy to contact the seller to ask questions.
+
+If users receive an
+
+SOURCE: Lawton Tubes employee wins at World Bowls Championships
+Nathan Caine, a warehouse operations team leader at Lawton Tubes’ Torrington Avenue base, helped England to silverware at this year’s World Bowls Championships in Norway.
+
+According to a statement, Nathan and his bowls partner competed against 11 other countries to be crowned the best in the world.
+
+Nathan noted that his day job had a huge influence on his bowls success.
+
+He said: “Bowls is a very tactical sport where you’re always thinking about how your next move will play out and the knock-on effect it could have, so you’re always thinking one step ahead.
+
+“The same approach applies at work, where I am leading a team of five people who are picking and packing a wide range of made-to-order copper tubes and fittings as efficiently as possible for our customers.
+
+“Ultimately it’s all about teamwork and communicating with each other, and fact that I am practicing and honing these skills on a daily basis in the warehouse has definitely helped me sharpen up my bowls.
+
+“Lawton Tubes have also been great in working around my bowls schedule. I have been able to switch to a Monday to Friday daytime role so that I can pursue meeting up with my local team mid-week and England during some weekends, whilst still being able to spend time with my family.
+
+“It’s been a memorable year on the bowls front, and my first thought after winning in Norway was ‘now we have to retain the title’.”
+
+Jon Brealey, operations manager at Lawton Tubes in Coventry, added: “Nathan has developed into a great 
+
+SOURCE: Drayton launches Golden Ticket giveaway
+Drayton has hidden 10 ‘Golden Tickets’ inside selected boxes of its two-port Motorised Valve product, as part of its ongoing Great Greggs Giveaway.
+
+Anyone who discovers a Golden Ticket inside a qualifying Motorised Valve box will be able to claim £50 worth of Greggs vouchers.
+
+To claim the prize, finders need to take a selfie of themselves holding their ticket and tagging Drayton on one of their social media channels. The company’s social media handles include @draytonheating on Instagram, Drayton Heating on Facebook and @DraytonHeating on TikTok.
+
+The promotion runs until 30 April 2026, with a total prize fund of up to £26,000 available.
+
+Nick Hunt, UK sales and marketing director at Drayton, said: “Installers work very hard and often have to grab lunch on the go, so we wanted to create something fun that also gives something back to the trade. Our Motorised Valve range is incredibly popular amongst heating engineers and the Golden Tickets add an extra layer of excitement to the Great Greggs Giveaway; you never know when opening a box might turn into a £50 treat!”
+
+SOURCE: Régulation et Gestion Technique des Bâtiments : une croissance portée par les standards de marché
+En 2025, la croissance du marché repose principalement sur l’installation de solution BACS standards en rénovation, avec une dynamique plus forte dans le tertiaire, et une priorité donnée à la régulation des systèmes CVC. L’attractivité de ce marché continue à attirer de nouveaux acteurs qui adaptent progressivement leurs offres aux référentiels de marché porté par l’ACR et l’ALLIANCE BACS. Cette dynamique doit se poursuivre dans les années à venir permettant l’installation massive de BACS de plus en plus performants.
+
+Les évolutions du marché en 2025
+
+Malgré un contexte économique difficile pour le secteur du bâtiment, le marché des BACS connaît à nouveau une croissance en 2025, avec une certaine homogénéité dans les tendances par type de marché.
+
+Cela relève un pragmatisme des investisseurs qui cherchent avant tout à s’équiper de BACS standards permettant de gagner en confort et en efficacité énergétique avec un retour rapide sur investissement.
+
+Dans le secteur tertiaire, la dynamique reste importante à 5%. Les objectifs réglementaires en vigueur dans ce domaine (Décrets BACS I&II et Dispositif Eco-énergie Tertiaire) offrent une lisibilité claire qui permet de programmer les bouquets de travaux progressivement en s’appuyant en premier lieu sur les actions à gains rapides que sont l’installation de BACS standards. Pour une grande partie des bâtiments déjà assujettis au décret BACS, c’est le remplacement des systèmes BACS existants par des systèmes de nouvelles générations q
+
+SOURCE: J3e partenaire de la 16e édition du salon de la performance des bâtiments tertiaires, industriels et collectifs – Build and renovate for a smart future
+Depuis 2010, Intelligent Building Systems (IBS) s’impose comme le rendez-vous incontournable des acteurs de la GTB et de l’automatisme des bâtiments.
+
+L’événement met en lumière les enjeux clés du marché : connectivité des bâtiments, gestion technique et automatisation, pilotage intelligent, interopérabilité des systèmes, cybersécurité et intelligence artificielle…
+
+Grâce à un format unique combinant salon professionnel et conférences thématiques, IBS réunit chaque année les acteurs majeurs du bâtiment et l’urbanisme intelligent.
+
+Prochaine édition les 14 et 15 octobre 2026 à Paris Expo Porte de Versailles. En synergie avec les salons Intelligent Lighting Systems, InnoCity et WaterTech.
+
+SOURCE: La revue Lumières partenaire d’Intelligent Lighting Systems, le rendez-vous stratégique pour la filière lumière – Transformez la ville et le bâtiment par l’éclairage
+Intelligent Lighting Systems est l’événement incontournable qui fédère l’ensemble des acteurs clés de la filière éclairage, qu’il s’agisse de projets d’éclairages intérieurs, des composants et technologies LED ou d’éclairage public & architectural.
+
+En associant les secteurs public et privé, les institutions, les corps intermédiaires, les associations et le monde académique, le salon place l’éclairage au cœur des échanges et offre un espace 100 % dédié à la lumière.
+
+Prochaine édition les 14 et 15 octobre 2026 à Paris Expo Porte de Versailles. En synergie avec les salons IBS, InnoCity et WaterTech.
+
+PAPER: Heat transfer in buildings : application to air solar heating and Trombe wall design
+ABSTRACT: The aim of this paper is to briefly recall heat transfer modes and explain their integration within a software dedicated to building simulation (CODYRUN). Detailed elements of the validation of this software are presented and two applications are finally discussed. One concerns the modeling of a flat plate air collector and the second focuses on the modeling of Trombe solar walls. In each case, detailed modeling of heat transfer allows precise understanding of thermal and energetic behavior of the studied structures. Recent decades have seen a proliferation of tools for building thermal simulation. These applications cover a wide spectrum from very simplified steady state models to dynamic simulation ones, including computational fluid dynamics modules (Clarke, 2001). These tools are widely available in design offices and engineering firms. They are often used for the design of HVAC systems and still subject to detailed research, particularly with respect to the integration of new fields (specific insulation materials, lighting, pollutants transport, etc.). Available from: http://www.intechopen.com/books/evaporation-condensation-and-heat-transfer/heat-transfer-in-buildings-application-to-solar-air-collector-and-trombe-wall-design
+
+PAPER: A Metric of Software Size as a Tool for IT Governance
+ABSTRACT: This paper proposes a new metric for software functional size, which is derived from Function Point Analysis (FPA), but overcomes some of its known defi- ciencies. The statistical results show that the new metric, Functional Elements (EF), and its submetric, Functional Elements of Transaction (EFt), have higher correlation with the effort in software development than FPA in the context of the analyzed data. The paper illustrates the application of the new metric as a tool to improve IT governance specifically in assessment, monitoring, and giving directions to the software development area.
+

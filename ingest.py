@@ -56,17 +56,20 @@ EMBED_DIMS = {
     "text-embedding-3-large": 3072,
 }
 
-# Topics to track
-TOPICS = [
-    "IoT_Supply_Chain",
-    "Medical_CCS",
-    "Heating_HVAC",
-    "Sport_Market",
-    "Global_Startups_Geo",
-]
-
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR
+
+# Topics to track — derived from segments.json
+def _load_topics(path: str = "segments.json") -> List[str]:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return list(data["segments"].keys())
+    except FileNotFoundError:
+        logger.error("segments.json not found. Copy segments.json.example to segments.json and configure it.")
+        sys.exit(1)
+
+TOPICS = _load_topics()
 
 
 @dataclass
@@ -119,6 +122,18 @@ class OllamaEmbedder(EmbeddingProvider):
                 # Return zero vector as fallback
                 embeddings.append([0.0] * EMBED_DIMS.get(self.model, 768))
         return embeddings
+
+    def unload(self):
+        """Release the model from GPU memory immediately."""
+        try:
+            requests.post(
+                f"{self.client._client.base_url}api/embed",
+                json={"model": self.model, "input": "", "keep_alive": 0},
+                timeout=10,
+            )
+            logger.info(f"[Ollama] Model '{self.model}' unloaded from GPU memory")
+        except Exception as e:
+            logger.warning(f"[Ollama] Could not unload model: {e}")
 
 
 class OpenAIEmbedder(EmbeddingProvider):
@@ -412,6 +427,10 @@ def main():
         if stats:
             logger.info(f"Collection stats: {stats}")
     
+    # Unload embedding model from GPU so the LLM can load without contention
+    if isinstance(embedder, OllamaEmbedder):
+        embedder.unload()
+
     logger.info("\n✓ Ingestion complete!")
 
 

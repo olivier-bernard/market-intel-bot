@@ -43,12 +43,22 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# --- NEXTCLOUD CONFIG ---
-NC_URL = os.getenv("NEXTCLOUD_URL", "https://sentinel.synio.dev")
-NC_USER = os.getenv("NEXTCLOUD_USER", "marketbot")
-NC_PASS = os.getenv("NEXTCLOUD_PASS", "DZ393-BJPtZ-nPg3q-5oFfN-B7GbL")
-NC_CHANNEL_PRIVATE = os.getenv("NC_BOT_CHANNEL_PRIVATE", "4spz2ath")  # Private channel token
-NC_CHANNEL_PUBLIC = os.getenv("NC_BOT_CHANNEL_PUBLIC", "public-token")  # Public channel token
+# --- SEGMENTS CONFIG ---
+def _load_segments(path="segments.json"):
+    """Load segment config, merging _defaults into each segment."""
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    defaults = data.get("_defaults", {})
+    segments = {}
+    for name, cfg in data["segments"].items():
+        segments[name] = {**defaults, **cfg}
+    return segments, defaults
+
+try:
+    SEGMENTS, NC_DEFAULTS = _load_segments()
+except FileNotFoundError:
+    logger.error("segments.json not found. Copy segments.json.example to segments.json and configure it.")
+    sys.exit(1)
 
 # --- QDRANT CONFIG ---
 QDRANT_HOST = os.getenv("QDRANT_HOST", "alice")
@@ -67,14 +77,8 @@ BOT_CONTEXT_WINDOW = 4  # Number of previous messages to include in context
 RAG_SEARCH_LIMIT = 5    # Number of Qdrant results to use as context
 RAG_SIMILARITY_THRESHOLD = 0.4  # Minimum similarity score for relevance
 
-# Topics available for Q&A
-TOPICS = [
-    "IoT_Supply_Chain",
-    "Medical_CCS",
-    "Heating_HVAC",
-    "Sport_Market",
-    "Global_Startups_Geo",
-]
+# Topics available for Q&A — derived from segments.json
+TOPICS = list(SEGMENTS.keys())
 
 # Initialize clients
 if LLM_PROVIDER == "claude":
@@ -334,10 +338,31 @@ class Bot:
     """Main bot coordinator."""
     
     def __init__(self):
-        self.nc = NextcloudAPI(NC_URL, NC_USER, NC_PASS)
         self.rag = QdrantRAG(qdrant_client)
         self.llm = LLMGenerator(LLM_PROVIDER)
         self.processed_message_ids = set()
+
+        # Build one NextcloudAPI client per distinct server, shared across segments
+        self._api_cache: Dict[Tuple[str, str, str], NextcloudAPI] = {}
+        self.channels: List[Tuple[str, str, NextcloudAPI, str]] = []  # (segment, token, api, nc_user)
+
+        for segment_name, cfg in SEGMENTS.items():
+            nc_url  = cfg.get("nc_url",  NC_DEFAULTS.get("nc_url", ""))
+            nc_user = cfg.get("nc_user", NC_DEFAULTS.get("nc_user", ""))
+            nc_pass = cfg.get("nc_pass", NC_DEFAULTS.get("nc_pass", ""))
+            nc_token = cfg.get("nc_token", "")
+
+            if not nc_token:
+                logger.warning(f"[{segment_name}] No nc_token configured, skipping.")
+                continue
+
+            key = (nc_url, nc_user, nc_pass)
+            if key not in self._api_cache:
+                self._api_cache[key] = NextcloudAPI(nc_url, nc_user, nc_pass)
+
+            self.channels.append((segment_name, nc_token, self._api_cache[key], nc_user))
+
+        logger.info(f"[Bot] Monitoring {len(self.channels)} channel(s) across {len(self._api_cache)} server(s)")
     
     def is_question(self, text: str) -> bool:
         """Determine if a message is a question."""
@@ -352,29 +377,13 @@ class Bot:
         text = text.lower()
         return '@marketbot' in text or '!marketbot' in text
     
-    def should_respond(self, message: str, channel_type: str) -> bool:
+    def should_respond(self, message: str) -> bool:
         """
-        Determine if bot should respond based on channel type.
-        
-        - Private channel: Respond to all questions
-        - Public channel: Only respond to questions that mention @marketbot
-        
-        Args:
-            message: The message text
-            channel_type: "private" or "public"
-        
-        Returns:
-            True if bot should respond
+        Determine if bot should respond.
+        All segment channels are dedicated rooms — respond to all questions,
+        or to any message that explicitly mentions @marketbot.
         """
-        if not self.is_question(message):
-            return False
-        
-        if channel_type == "private":
-            # In private channels (1-on-1): answer all questions
-            return True
-        else:  # "public"
-            # In public channels: only answer if mentioned
-            return self.is_mentioned(message)
+        return self.is_question(message) or self.is_mentioned(message)
     
     def extract_topic(self, question: str) -> Optional[str]:
         """Try to detect topic from question."""
@@ -385,9 +394,9 @@ class Bot:
                 return topic
         return None
     
-    def process_channel(self, token: str, channel_name: str):
-        """Monitor and respond to messages in a channel."""
-        messages = self.nc.get_messages(token)
+    def process_channel(self, token: str, segment_name: str, api: NextcloudAPI, nc_user: str):
+        """Monitor and respond to messages in a segment channel."""
+        messages = api.get_messages(token)
         
         for msg in messages:
             # Skip already processed messages
@@ -395,16 +404,14 @@ class Bot:
                 continue
             
             # Skip own messages
-            if msg.actor_id == NC_USER:
+            if msg.actor_id == nc_user:
                 continue
             
-            # Check if we should respond based on channel type and message content
-            if not self.should_respond(msg.message, channel_name):
-                reason = "not a question" if not self.is_question(msg.message) else "missing @marketbot mention"
-                logger.debug(f"[{channel_name}] Skipping ({reason}): {msg.message[:50]}")
+            if not self.should_respond(msg.message):
+                logger.debug(f"[{segment_name}] Skipping: {msg.message[:50]}")
                 continue
             
-            logger.info(f"[{channel_name}] Processing question from {msg.user}: {msg.message[:80]}")
+            logger.info(f"[{segment_name}] Processing question from {msg.user}: {msg.message[:80]}")
             
             # Extract topic hint
             topic = self.extract_topic(msg.message)
@@ -423,35 +430,37 @@ class Bot:
                     answer += f"\n{i}. {ctx.section} ({ctx.topic}) - Score: {ctx.score:.2f}"
             
             # Post response (as reply if supported)
-            self.nc.post_message(token, answer, parent_id=msg.id)
+            api.post_message(token, answer, parent_id=msg.id)
             
             # Mark as processed
             self.processed_message_ids.add(msg.id)
     
-    def run(self, channels: str = "both", poll_interval: int = 30):
+    def run(self, segments_filter: Optional[List[str]] = None, poll_interval: int = 30):
         """
         Main bot loop.
         
         Args:
-            channels: "private", "public", or "both"
+            segments_filter: List of segment names to monitor (None = all)
             poll_interval: Seconds between polls
         """
-        logger.info(f"Starting bot (polling every {poll_interval}s, channels: {channels})")
-        
-        channels_to_monitor = []
-        if channels in ("private", "both"):
-            channels_to_monitor.append(("private", NC_CHANNEL_PRIVATE))
-        if channels in ("public", "both"):
-            channels_to_monitor.append(("public", NC_CHANNEL_PUBLIC))
-        
-        if not channels_to_monitor:
-            logger.error("No channels to monitor")
+        channels = self.channels
+        if segments_filter:
+            channels = [(s, t, a, u) for s, t, a, u in self.channels if s in segments_filter]
+            unknown = set(segments_filter) - {s for s, *_ in self.channels}
+            if unknown:
+                logger.warning(f"Unknown segment(s) ignored: {', '.join(unknown)}")
+
+        if not channels:
+            logger.error("No channels to monitor. Check segments.json.")
             return
+
+        active = ', '.join(s for s, *_ in channels)
+        logger.info(f"Starting bot (polling every {poll_interval}s) — segments: {active}")
         
         try:
             while True:
-                for channel_name, token in channels_to_monitor:
-                    self.process_channel(token, channel_name)
+                for segment_name, token, api, nc_user in channels:
+                    self.process_channel(token, segment_name, api, nc_user)
                 
                 time.sleep(poll_interval)
         except KeyboardInterrupt:
@@ -462,8 +471,9 @@ class Bot:
 
 def main():
     parser = argparse.ArgumentParser(description="RAG-powered Nextcloud Q&A bot")
-    parser.add_argument("--channel", choices=["private", "public", "both"], default="both",
-                       help="Which Nextcloud channel(s) to monitor")
+    parser.add_argument("--segments", type=str, default=None,
+                       help="Comma-separated list of segment names to monitor (default: all). "
+                            f"Available: {', '.join(TOPICS)}")
     parser.add_argument("--poll-interval", type=int, default=30,
                        help="Seconds between polls (default: 30)")
     parser.add_argument("--test-query", type=str, help="Test with a single query (no polling)")
@@ -489,8 +499,9 @@ def main():
         return
     
     # Normal polling mode
+    segments_filter = [s.strip() for s in args.segments.split(",")] if args.segments else None
     bot = Bot()
-    bot.run(channels=args.channel, poll_interval=args.poll_interval)
+    bot.run(segments_filter=segments_filter, poll_interval=args.poll_interval)
 
 
 if __name__ == "__main__":

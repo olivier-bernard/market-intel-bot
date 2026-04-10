@@ -1,0 +1,40 @@
+{
+  "_defaults": {
+    "nc_url": "https://your-nextcloud-instance.example.com",
+    "nc_user": "botusername",
+    "nc_pass": "your-app-password-or-bot-token"
+  },
+  "segments": {
+    "IoT_Supply_Chain": {
+      "feeds": [
+        "https://www.iotworldtoday.com/feed/",
+        "https://www.supplychainbrain.com/rss/articles",
+        "https://www.supplychaindive.com/feeds/news/",
+        "https://www.freightwaves.com/news/feed"
+      ],
+      "arxiv_query": "IoT cold chain temperature humidity sensor asset tracking GPS warehouse logistics",
+      "prompt": "You are a specialist in IoT solutions for temperature-controlled supply chains. Focus on: sensor hardware (temperature, humidity, shock, GPS/asset tracking), cold-chain compliance and data logging platforms, warehouse and transportation monitoring, real-time alerting and SLA breach detection, and platform integration (ERP, WMS, TMS).",
+      "recipient": "user@example.com",
+      "color": "#0ea5e9",
+      "icon": "📡",
+      "nc_token": "your-nextcloud-talk-channel-token"
+    },
+    "Global_Startup_Trends": {
+      "feeds": [
+        "https://techcrunch.com/startups/feed/",
+        "https://sifted.eu/feed/",
+        "https://www.ycombinator.com/feed/",
+        "https://www.producthunt.com/feed"
+      ],
+      "arxiv_query": null,
+      "prompt": "You are a market analyst tracking emerging startups and innovation trends globally. Focus on: early-stage funding rounds (seed to Series B), disruptive business models and technologies, founding teams and their background, geographic expansion patterns, and industry verticals showing highest growth. Identify opportunities and threats for traditional businesses, emerging niches, and cross-industry innovations.",
+      "recipient": "user@example.com",
+      "color": "#8b5cf6",
+      "icon": "🚀",
+      "nc_token": "your-nextcloud-talk-channel-token",
+      "nc_url": "https://other-nextcloud-instance.example.com",
+      "nc_user": "different-bot-user",
+      "nc_pass": "different-app-password"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import feedparser
 import arxiv
+import json
 import ollama
 import os
 import re
@@ -11,12 +12,6 @@ from newspaper import Article
 import requests
 from dotenv import load_dotenv
 from anthropic import Anthropic
-
-# --- NEXTCLOUD CONFIG ---
-NC_URL = "https://sentinel.synio.dev"
-NC_USER = "marketbot"
-NC_PASS = "DZ393-BJPtZ-nPg3q-5oFfN-B7GbL"
-NC_TOKEN = "4spz2ath" # The token from your channel URL
 
 load_dotenv()
 BREVO_EMAIL_API_URL = os.getenv("BREVO_EMAIL_API_URL")
@@ -79,159 +74,52 @@ BACKGROUND_CONTEXT = (
 CONVERSATION_HISTORY = []
 
 
-def send_to_nextcloud(content, token=None):
-    print(f"Sending summary to Nextcloud Talk...")
-    nc_token = token or NC_TOKEN
-    # Endpoint for Nextcloud Talk API
-    endpoint = f"{NC_URL}/ocs/v2.php/apps/spreed/api/v1/chat/{nc_token}"
-    
+def _load_segments(path="segments.json"):
+    """Load segment configuration from JSON file."""
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    defaults = data.get("_defaults", {})
+    segments = {}
+    for name, cfg in data["segments"].items():
+        # Merge defaults into each segment; segment-level keys take precedence
+        merged = {**defaults, **cfg}
+        segments[name] = merged
+    return segments, defaults
+
+
+SEGMENTS, NC_DEFAULTS = _load_segments()
+
+
+def send_to_nextcloud(content, config):
+    """Post a message to the Nextcloud Talk channel defined in the segment config."""
+    nc_url  = config.get("nc_url",  NC_DEFAULTS.get("nc_url",  ""))
+    nc_user = config.get("nc_user", NC_DEFAULTS.get("nc_user", ""))
+    nc_pass = config.get("nc_pass", NC_DEFAULTS.get("nc_pass", ""))
+    nc_token = config.get("nc_token", "")
+
+    if not nc_token:
+        print("  [Nextcloud] No token configured for this segment — skipping.")
+        return
+
+    print(f"Sending summary to Nextcloud Talk ({nc_url})...")
+    endpoint = f"{nc_url}/ocs/v2.php/apps/spreed/api/v1/chat/{nc_token}"
     headers = {
         "OCS-APIRequest": "true",
         "Accept": "application/json",
         "Content-Type": "application/json",
     }
-    
     payload = {
         "message": content,
         "actorDisplayName": "Market Intelligence Bot"
     }
-
     try:
-        response = requests.post(
-            endpoint,
-            auth=(NC_USER, NC_PASS),
-            headers=headers,
-            json=payload
-        )
-        
+        response = requests.post(endpoint, auth=(nc_user, nc_pass), headers=headers, json=payload)
         if response.status_code == 201:
             print("Successfully posted to Nextcloud!")
         else:
             print(f"Failed to post. Status: {response.status_code}, Error: {response.text}")
     except Exception as e:
         print(f"An error occurred: {e}")
-
-# --- 1. SEGMENTED CONFIGURATION ---
-# We define each newsletter topic with its specific sources and AI "focus"
-SEGMENTS = {
-    "IoT_Supply_Chain": {
-        "feeds": [
-            "https://www.iotworldtoday.com/feed/",
-            "https://www.supplychainbrain.com/rss/articles",
-            "https://www.supplychaindive.com/feeds/news/",
-            "https://www.freightwaves.com/news/feed",
-            "https://iot-analytics.com/feed/",
-            "https://www.rfidjournal.com/feed",
-            "https://theloadstar.com/feed/"
-        ],
-        "arxiv_query": "IoT cold chain temperature humidity sensor asset tracking GPS warehouse logistics",
-        "prompt": (
-            "You are a specialist in IoT solutions for temperature-controlled supply chains. "
-            "Focus on: sensor hardware (temperature, humidity, shock, GPS/asset tracking), "
-            "cold-chain compliance and data logging platforms, warehouse and transportation monitoring, "
-            "real-time alerting and SLA breach detection, and platform integration (ERP, WMS, TMS). "
-            "Identify new sensor technologies, connectivity standards (BLE, NB-IoT, 5G, other), "
-            "emerging SaaS platforms and startups, regulatory drivers (GDP, HACCP, pharma cold-chain), "
-            "and opportunities to improve visibility and reduce spoilage or loss across the cold chain."
-        ),
-        "recipient": "olivier@sapiochain.io",
-        "color": "#0ea5e9",
-        "icon": "📡",
-        "nc_token": NC_TOKEN  # Replace with dedicated IoT channel token
-    },
-    "Medical_CCS": {
-        "feeds": [
-            "https://www.cleanroomtechnology.com/rss/",
-            "https://www.pharmtech.com/rss/news",
-            "https://www.pharmamanufacturing.com/rss/news/",
-            "https://www.europeanpharmaceuticalreview.com/feed/",
-            "https://www.raps.org/rss",
-            "https://www.contractpharma.com/rss/",
-            "https://www.outsourced-pharma.com/feed/"
-        ],
-        "arxiv_query": "contamination control strategy annex 1 GMP cleanroom pharmaceutical quality management system sterile",
-        "prompt": (
-            "You are a specialist in pharmaceutical Contamination Control Strategy (CCS) and Quality Management Systems (QMS). "
-            "Focus on: EU GMP Annex 1 (2022) implementation and updates, CCS documentation and risk assessment methodologies, "
-            "cleanroom monitoring technologies (particle counters, environmental monitoring systems), "
-            "sterile manufacturing innovations (RABS, isolators, single-use systems), "
-            "QMS software platforms (eQMS, LIMS, electronic batch records), "
-            "regulatory intelligence (EMA, FDA, MHRA inspections and warning letters), "
-            "and competitor companies offering CCS consulting, cleanroom design, or quality system solutions. "
-            "Flag any new research, guideline changes, or technology that could impact sterile product manufacturers."
-        ),
-        "recipient": "olivier@sapiochain.io",
-        "color": "#10b981",
-        "icon": "🧪",
-        "nc_token": "5capxsbs"  # Replace with dedicated Medical channel token
-    },
-    "Sport_Market": {
-        "feeds": [
-            "https://www.sporttechie.com/feed/",
-            "https://www.sportspromedia.com/feed/",
-            "https://www.sportbusiness.com/feed/",
-            "https://sgbmedia.com/feed/",
-            "https://techcrunch.com/tag/sports/feed/"
-        ],
-        "arxiv_query": "sports club management event registration training group engagement gamification app",
-        "prompt": (
-            "You are a specialist in sports technology markets with a focus on club and event management platforms. "
-            "Focus on: startups and scale-ups building apps for sports club administration, event organisation and registration, "
-            "athlete/member management and group training coordination, "
-            "digital engagement and gamification techniques to improve retention and motivation, "
-            "investment rounds and M&A activity in sports tech (seed to Series B), "
-            "innovations in training load management, performance tracking, and coach-athlete communication tools, "
-            "and market gaps or underserved niches (e.g. amateur/grassroots clubs, multi-sport events, volunteer management). "
-            "Identify direct and indirect competitors, their feature sets, pricing models, and geographic focus."
-        ),
-        "recipient": "olivier@sapiochain.io",
-        "color": "#f59e0b",
-        "icon": "🏆",
-        "nc_token": "chij6iuh"  # Replace with dedicated Sport channel token
-    },
-    "Heating_HVAC": {
-        "feeds": [
-            "https://achrnews.com/rss/articles",
-            "https://www.hvacrbusiness.com/rss/news",
-            "https://www.contractormag.com/rss",
-            "https://www.hpmmag.com/feed/",
-            "https://www.lemoniteur.fr/rss/all.xml",
-            "https://www.filiere-3e.fr/feed/",
-            "https://www.renovation-energetique.info/feed/"
-        ],
-        "arxiv_query": "residential heating system design heat pump boiler sizing calculation software installer tool",
-        "prompt": (
-            "You are a senior specialist in residential and SMB heating system design ('installations de chauffage'). "
-            "Your expertise spans heat load calculation (DPE, RT2012/RE2020), system sizing, "
-            "heat pump selection (air/air, air/water, geothermal), boiler replacement, "
-            "underfloor heating, radiator balancing, and hydraulic circuit design. "
-            "Focus on: software tools and apps that help heating installers and engineers design, calculate, and quote systems; "
-            "tools that help customers understand their needs and compare solutions; "
-            "innovations in heat pump technology, smart thermostats, and connected heating management; "
-            "new startups worldwide (especially Europe) that could be adapted or brought to the French market; "
-            "French regulatory context (MaPrimeRénov', CEE, RE2020, DPE reform) and how it shapes demand; "
-            "and competitive landscape among installer-facing SaaS platforms. "
-            "Always consider both the installer/engineer perspective and the end-customer perspective."
-        ),
-        "recipient": "olivier@sapiochain.io",
-        "color": "#ef4444",
-        "icon": "🔥",
-        "nc_token": "2ndenxm8"  # Replace with dedicated Heating channel token
-    },
-    "Global_Startups_Geo": {
-        "feeds": [
-            "https://techcrunch.com/startups/feed/", # US
-            "https://sifted.eu/feed/",              # EMEA
-            "https://www.reutersagency.com/feed/"   # Geopolitics
-        ],
-        "arxiv_query": None,
-        "prompt": "Summarize US/EMEA startup trends and geopolitical events affecting business evolution.",
-        "recipient": "olivier@sapiochain.io",
-        "color": "#8b5cf6",
-        "icon": "🌍",
-        "nc_token": NC_TOKEN  # Replace with dedicated Global channel token
-    }
-}
 
 # --- 2. CORE FUNCTIONS ---
 
@@ -573,11 +461,9 @@ def run_agent():
             with open(f"raw_data_{name}.txt", "a", encoding="utf-8") as f:
                 f.write(chunk_header + raw_data)
 
-            nc_token = config.get("nc_token", NC_TOKEN)
-
             # Format and send to Nextcloud Talk (per-topic channel)
             nc_message = format_nextcloud_message(name, summary, date_str)
-            send_to_nextcloud(nc_message, token=nc_token)
+            send_to_nextcloud(nc_message, config)
 
             # Format and send HTML email via Brevo
             subject = f"[Market Intel] {name.replace('_', ' ')} \u2014 {date_str}"
